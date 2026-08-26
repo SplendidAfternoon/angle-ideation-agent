@@ -1,0 +1,20 @@
+[project]
+name = "angle-ideation-agent"
+version = "1.9.0"
+description = "Multi-agent creative strategy and evaluation pipeline for curiosity-led narrative angle generation."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jsonschema>=4.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
