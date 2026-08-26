@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "scenario": "B",
+    "methodology": "angle-ideation-agent@1.3.1",
+    "product_name": "Baby Bubble",
+    "source_refs": ["Scenario B thin inputs; mini-brief PLAUSIBLE_INFERENCE"]
+  },
+  "avatar": {
+    "name": "The Overextended Newborn-Season Mother",
+    "description": "First-time or early postpartum mother whose nights are ruled by a blocked nose: feeding stalls, sleep shatters, and every gurgle starts a private panic. She has tried the hospital bulb and maybe a mouth-suction tube; she feels mean when clearing, guilty when she fails, and exhausted when neither of them sleeps.",
+    "awareness_notes": "Solution-aware on saline/bulb/steamy bathroom; product-aware enough to know NoseFrida/Braun exist; cynical about empty 'clears instantly' claims.",
+    "labels": { "description": "PLAUSIBLE_INFERENCE" }
+  },
+  "pain_points": [
+    {
+      "cluster": "Night Breathing Fear",
+      "description": "Congestion sounds like the baby cannot breathe; she checks obsessively.",
+      "examples": ["She sounds like she can't breathe.", "I keep checking his chest in the dark."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Feed Block",
+      "description": "Blocked nose breaks latch; feeds become battles before the next wake.",
+      "examples": ["She pops off crying mid-feed.", "Nothing works before the next bottle."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Contamination Anxiety",
+      "description": "Fear of mould, filters, and putting unclean tools in a tiny nose.",
+      "examples": ["What if something's growing in the bulb?", "Mouth suction feels disgusting and unsafe."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Mean Mother Guilt",
+      "description": "Clearing feels cruel; she blames herself for the crying.",
+      "examples": ["I feel so mean doing this.", "I'm traumatizing her to help her."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Shared Exhaustion",
+      "description": "Neither parent sleeps; nights become opposing shifts.",
+      "examples": ["Neither of us is sleeping.", "We're just handing off misery."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Blind Failure",
+      "description": "Tools give noise/hope without visible proof anything came out.",
+      "examples": ["Nothing comes out.", "I can't tell if I did anything."],
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Hospital bulb syringe",
+      "why_it_failed": "Weak suction, blind tip, sealed body that can hide mould.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Mouth-suction tube (NoseFrida-class)",
+      "why_it_failed": "Disgusting, filter anxiety, hard to hand off to partner.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Saline + steamy bathroom only",
+      "why_it_failed": "Thins mucus but does not remove blockage reliably.",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "emotional_effects": ["Fear", "Guilt", "Exhaustion", "Frustration", "Disgust", "Isolation"],
+  "exact_vocabulary": [
+    "can't breathe",
+    "nothing comes out",
+    "feel so mean",
+    "neither of us is sleeping",
+    "hospital bulb",
+    "mouth suction",
+    "clear collection cup",
+    "black mould",
+    "popping off the bottle",
+    "2 a.m. clear-out"
+  ],
+  "future_fears": [
+    "Another night of no feed and no sleep",
+    "Putting something unclean in the nose",
+    "Never trusting her own judgment at night"
+  ],
+  "product_fit": {
+    "mechanism": "Nasal aspirator with a clear collection cup so mucus is visible when removed; designed to be cleaned without a sealed hidden chamber and without mouth contact.",
+    "how_it_resolves": "Turns blind guessing into a visible clear-out, reduces mould/mouth-suction failure modes, and shortens the night panic/feed loop.",
+    "label": "PLAUSIBLE_INFERENCE"
+  },
+  "competitors": [
+    {
+      "name": "bulb syringe",
+      "loved": "Familiar, hospital-issued",
+      "hated": "Barely works; sealed; mould risk",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "name": "NoseFrida",
+      "loved": "Can work when tolerated",
+      "hated": "Mouth suction disgust; filter fear",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "name": "Braun / electric class",
+      "loved": "No mouth contact",
+      "hated": "Reliability/clean doubts in category",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "psychosocial_currencies_candidates": [
+    { "currency_id": "SAFETY_SECURITY", "why_it_applies": "Night can't-breathe fear", "evidence_refs": ["pain_points[0]"], "label": "DERIVED" },
+    { "currency_id": "TRUST_SAFETY", "why_it_applies": "Mould / contamination of trusted tools", "evidence_refs": ["pain_points[2]"], "label": "DERIVED" },
+    { "currency_id": "GUILT_REGRET", "why_it_applies": "Feel so mean", "evidence_refs": ["pain_points[3]"], "label": "DERIVED" },
+    { "currency_id": "AGENCY_CONTROL", "why_it_applies": "Nothing comes out / blind failure", "evidence_refs": ["pain_points[5]"], "label": "DERIVED" },
+    { "currency_id": "AGENCY_PARTNERSHIP", "why_it_applies": "Mouth suction blocks handoff", "evidence_refs": ["failed_attempts[1]"], "label": "DERIVED" },
+    { "currency_id": "RELATIONAL_EQUITY", "why_it_applies": "Neither sleeping", "evidence_refs": ["pain_points[4]"], "label": "DERIVED" },
+    { "currency_id": "AUTHORITY", "why_it_applies": "Cannot know if clear worked", "evidence_refs": ["pain_points[5]"], "label": "DERIVED" },
+    { "currency_id": "IDENTITY_SELFHOOD", "why_it_applies": "Exhaustion erases self", "evidence_refs": ["emotional_effects"], "label": "DERIVED" }
+  ],
+  "beliefs": {
+    "held": [
+      "Blocked nose blocks feed and sleep.",
+      "Night sounds can feel like can't-breathe emergencies."
+    ],
+    "ready_to_shift": [
+      "Default bulb/mouth tools fail for concrete design reasons.",
+      "A clear cup changes guessing into seeing."
+    ],
+    "label": "DERIVED"
+  },
+  "gaps": [
+    {
+      "field": "evidenced customer quotes",
+      "status": "UNKNOWN",
+      "impact": "Scenario B plausible voice only; not dossier-evidenced."
+    }
+  ]
+}

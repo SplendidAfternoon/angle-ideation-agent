@@ -1,20 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "angle-ideation-agent"
-version = "1.9.0"
-description = "Multi-agent creative strategy and evaluation pipeline for curiosity-led narrative angle generation."
+version = "1.6.1"
+description = "Methodology, tooling, and agentic gates for Pre-Lander-ready Emotional Angle Packs"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "jsonschema>=4.20.0",
+    "jsonschema>=4.0.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0.0",
-    "ruff>=0.1.0",
-    "mypy>=1.0.0",
 ]
 
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]

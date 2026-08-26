@@ -1,35 +1,26 @@
-# System
-.DS_Store
-Thumbs.db
-*.tmp
-
-# Environment & Secrets
-.env
-.env.local
-secrets.local.json
-*.pem
-*.key
-
 # Python
 __pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
-.coverage
-htmlcov/
-dist/
-build/
+*.py[cod]
 *.egg-info/
 .venv/
 venv/
 
-# Node / JS
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Env / secrets
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
 
-# Scratch & Intermediate Run Dumps (keep formal runs/ tracked)
-scratch/
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local scratch
 tmp/
-*.log
+.cache/
+.tmp_*.txt
+

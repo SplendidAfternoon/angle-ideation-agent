@@ -1,0 +1,13 @@
+{
+  "run_id": "20260814-strideform-l3",
+  "methodology": "angle-ideation-agent@1.4.0",
+  "scenario": "B",
+  "decision": "Scenario B — thin inputs only; no research dossier.",
+  "inputs_summary": {
+    "avatar_description": "Active parent / recreational runner (30s–40s) whose first steps out of bed stab the heel; mornings start with hobbling; playground and weekend runs feel stolen.",
+    "product_description": "StrideForm Insoles — contoured orthotic inserts with structured arch support and heel cushioning that redistribute plantar pressure under load.",
+    "problem_statement": "Plantar fasciitis-style heel pain on first steps; foam drugstore pads flatten; stretching alone doesn't restore mornings; fear of giving up running and play with kids.",
+    "competitors_optional": ["drugstore gel pads", "generic foam inserts", "cheap Amazon orthotics that collapse"]
+  },
+  "prior_niches_to_avoid_leak": ["Baby Bubble / nasal aspirator", "Rootline / hair loss serum"]
+}

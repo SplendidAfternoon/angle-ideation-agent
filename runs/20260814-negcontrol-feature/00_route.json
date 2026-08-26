@@ -1,0 +1,12 @@
+{
+  "run_id": "20260814-negcontrol-feature",
+  "methodology": "angle-ideation-agent@1.5.0",
+  "scenario": "B",
+  "decision": "NEGATIVE CONTROL — intentional feature/claim/offer pack. Must critic-FAIL. Not a shippable run.",
+  "purpose": "docs/05 regression item 3: false-positive check (bad pack must not Ready).",
+  "inputs_summary": {
+    "avatar_description": "Mothers of newborns struggling with congestion",
+    "product_description": "A nasal aspirator with a clear collection cup",
+    "problem_statement": "Baby nasal congestion prevents sleep and feeding"
+  }
+}

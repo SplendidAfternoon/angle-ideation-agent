@@ -1,0 +1,41 @@
+{
+  "run_id": "eval-vsl-doctrine-fail",
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "Q1_hollow": "Ear to a tiny chest, counting rises that never become an answer.",
+      "Q2_villain": "The hospital bulb that answers with a wet sound and hope.",
+      "Q3_dream": "Nights were normal again. She finally slept through; it was over.",
+      "Q4_currency": "SAFETY_SECURITY",
+      "Q5_arc": "Came home ready to be careful. Congestion. Saline. Steam. The bulb. Still blind.",
+      "Q6_fit": "Clear collection cup makes mucus visible when it leaves.",
+      "Q7_core": "Night sounds steal the ability to know what's true.",
+      "Q8_headlines": ["Night sounds never became an answer."],
+      "headline_picked": "Night sounds never became an answer."
+    },
+    {
+      "angle_ordinal": 2,
+      "Q1_hollow": "Effort without feedback. Lined-up boxes still show nothing.",
+      "Q2_villain": "Opaque weak clear-outs sold as upgrades.",
+      "Q3_dream": "Unused extras stay in the drawer. You don't add a fourth box.",
+      "Q4_currency": "AGENCY_CONTROL",
+      "Q5_arc": "Tried the cup → mucus visible → slept",
+      "Q6_fit": "Visible collection is the feedback loop the category skipped.",
+      "Q7_core": "Trying harder with tools that show nothing is not a plan.",
+      "Q8_headlines": ["I kept buying blind tools that showed nothing."],
+      "headline_picked": "I kept buying blind tools that showed nothing."
+    },
+    {
+      "angle_ordinal": 3,
+      "Q1_hollow": "He offered. Your body said no before your voice did.",
+      "Q2_villain": "The mouth-suction tube that decides who is allowed to parent the clear-out.",
+      "Q3_dream": "You pass him the device without a speech. You stay a person in the doorway.",
+      "Q4_currency": "RELATIONAL_EQUITY",
+      "Q5_arc": "He offered. I said no. Steam and the bulb failed; the mouth tube isolated me.",
+      "Q6_fit": "Clears into a visible cup without mouth contact.",
+      "Q7_core": "When the tool needs someone's mouth, help stops being shareable.",
+      "Q8_headlines": ["Help stopped being a job we could share."],
+      "headline_picked": "Help stopped being a job we could share."
+    }
+  ]
+}

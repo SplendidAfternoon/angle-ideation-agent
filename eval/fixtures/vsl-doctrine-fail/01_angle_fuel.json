@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "scenario": "B",
+    "methodology": "angle-ideation-agent@1.9.0",
+    "product_name": "ClearCup"
+  },
+  "avatar": {
+    "name": "Night-watch parent",
+    "description": "A parent who spends nights with an ear on a tiny chest, unsure if air is moving."
+  },
+  "pain_points": [
+    {
+      "cluster": "Knowing",
+      "description": "Cannot tell if the blockage left",
+      "examples": ["I pressed my ear and learned nothing"]
+    },
+    {
+      "cluster": "Partnership",
+      "description": "The clear-out is not shareable",
+      "examples": ["He offered and my body said no"]
+    },
+    {
+      "cluster": "Trust",
+      "description": "The trusted bulb cannot be washed inside",
+      "examples": ["I could not see what lived in that rubber"]
+    }
+  ],
+  "failed_attempts": [
+    { "attempt": "Hospital bulb", "why_it_failed": "Sealed, opaque, no proof" },
+    { "attempt": "Mouth tube", "why_it_failed": "Works and still isolates one parent" }
+  ],
+  "emotional_effects": ["uninformed night watch", "unshareable help"],
+  "exact_vocabulary": [
+    "night watch",
+    "learned nothing",
+    "hospital bulb",
+    "mouth tube",
+    "blockage left"
+  ],
+  "future_fears": ["another night of guessing"],
+  "product_fit": {
+    "mechanism": "Clear collection cup that shows mucus leaving",
+    "how_it_resolves": "Night fear gets an answer instead of another listen"
+  },
+  "competitors": [
+    { "name": "Hospital bulb", "hated": "Sealed guess dispenser" }
+  ],
+  "psychosocial_currencies_candidates": [
+    { "currency_id": "SAFETY_SECURITY", "why_it_applies": "Need to know air is moving" },
+    { "currency_id": "AGENCY_CONTROL", "why_it_applies": "Blind tools" },
+    { "currency_id": "RELATIONAL_EQUITY", "why_it_applies": "Rota instead of couple" },
+    { "currency_id": "TRUST_SAFETY", "why_it_applies": "Sealed chamber" },
+    { "currency_id": "GUILT_REGRET", "why_it_applies": "Cruel clear-out" },
+    { "currency_id": "IDENTITY_SELFHOOD", "why_it_applies": "Erased morning" }
+  ],
+  "beliefs": {
+    "held": ["If I listen longer I will know"],
+    "ready_to_shift": ["Sight, not more listening, ends the scan"]
+  },
+  "gaps": []
+}

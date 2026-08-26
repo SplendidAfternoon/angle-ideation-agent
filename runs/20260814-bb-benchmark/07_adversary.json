@@ -1,0 +1,15 @@
+{
+  "run_id": "20260814-bb-benchmark",
+  "methodology": "angle-ideation-agent@1.6.1",
+  "adversary": "angle-red-team@1.6.0",
+  "feature_sheet_if_product_removed": "STILL_A_STORY",
+  "gold_headline_paraphrase_count": 1,
+  "disagree_with_critic": false,
+  "recommendation": "NO_MATERIAL_HITS",
+  "nits": [
+    "Loop 0 had F03/F05 hits (unfinished loops; cup as Dream peak). Loop 1 regenerated those fields; this file judges the regenerated pack only.",
+    "Angle 2 Hollow/Arc still uses offered/said-no beats; headline itself is villain-first and counts as 1 near-territory echo of Section 5 Isolation, not a headline paraphrase.",
+    "Angles 1 and 7 both name a guess-dispenser bulb; primary frictions still split (night-danger knowing vs competence/authority) so not F06."
+  ],
+  "material_hits": []
+}

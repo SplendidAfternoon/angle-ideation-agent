@@ -1,0 +1,114 @@
+{
+  "run_id": "20260814-bb-assisted",
+  "methodology": "angle-ideation-agent@1.3.1",
+  "candidates": [
+    {
+      "candidate_id": "A01",
+      "working_title": "Dark Check Loop",
+      "currency_id": "SAFETY_SECURITY",
+      "belief_move": "prove",
+      "belief_statement": "Night gurgles force a can't-breathe scan she cannot shut off.",
+      "pain_refs": ["pain_points[0]"],
+      "villain_seed": "Blind bulb that gives noise without an answer",
+      "mechanism_bridge": "Clear cup → see mucus leave → shorter panic math",
+      "confession_seed": "I keep checking his chest in the dark.",
+      "assist_notes": { "bias_id": "BIAS_ATTENTIONAL", "attach_to": "Hollow" }
+    },
+    {
+      "candidate_id": "A02",
+      "working_title": "Sealed Trust",
+      "currency_id": "TRUST_SAFETY",
+      "belief_move": "shift",
+      "belief_statement": "The hospital bulb can hide what you would never knowingly put in a nose.",
+      "pain_refs": ["pain_points[2]"],
+      "villain_seed": "Sealed rubber bulb / mould risk",
+      "mechanism_bridge": "Clear, cleanable cup — nothing sealed to grow",
+      "confession_seed": "black mould",
+      "assist_notes": { "bias_id": "BIAS_DISGUST", "attach_to": "Villain" }
+    },
+    {
+      "candidate_id": "A03",
+      "working_title": "Mean to Help",
+      "currency_id": "GUILT_REGRET",
+      "belief_move": "shift",
+      "belief_statement": "Feeling cruel during clearing does not mean she is cruel — the ritual is.",
+      "pain_refs": ["pain_points[3]"],
+      "villain_seed": "Blind irritating clear-out ritual",
+      "mechanism_bridge": "Visible gentle clear reframes help as help",
+      "confession_seed": "feel so mean",
+      "assist_notes": { "bias_id": "DEBATE_NON_ID_BLAME", "attach_to": "Twist" }
+    },
+    {
+      "candidate_id": "A04",
+      "working_title": "Empty Results",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "shift",
+      "belief_statement": "Trying harder with blind tools is not a plan.",
+      "pain_refs": ["pain_points[5]"],
+      "villain_seed": "Category of opaque weak clear-outs",
+      "mechanism_bridge": "See what came out — agency via feedback",
+      "confession_seed": "nothing comes out",
+      "assist_notes": { "bias_id": "BIAS_SUNK_COST", "attach_to": "Action" }
+    },
+    {
+      "candidate_id": "A05",
+      "working_title": "Cannot Pass It",
+      "currency_id": "AGENCY_PARTNERSHIP",
+      "belief_move": "shift",
+      "belief_statement": "Mouth suction makes help unshareable.",
+      "pain_refs": ["failed_attempts[1]"],
+      "villain_seed": "Mouth-suction design",
+      "mechanism_bridge": "No mouth contact → handoff possible",
+      "confession_seed": "mouth suction",
+      "assist_notes": { "bias_id": "BIAS_DISGUST", "attach_to": "Villain" }
+    },
+    {
+      "candidate_id": "A06",
+      "working_title": "Opposing Shifts",
+      "currency_id": "RELATIONAL_EQUITY",
+      "belief_move": "prove",
+      "belief_statement": "Neither sleeping turns partners into logistics, not a couple.",
+      "pain_refs": ["pain_points[4]"],
+      "villain_seed": "Failed night clear-outs that keep both awake",
+      "mechanism_bridge": "Visible clear ends the shared night war",
+      "confession_seed": "neither of us is sleeping",
+      "assist_notes": { "bias_id": "BIAS_LOSS_AVERSION", "attach_to": "Hollow" }
+    },
+    {
+      "candidate_id": "A07",
+      "working_title": "No Proof",
+      "currency_id": "AUTHORITY",
+      "belief_move": "shift",
+      "belief_statement": "Without seeing results she cannot trust her own clear-out.",
+      "pain_refs": ["pain_points[5]"],
+      "villain_seed": "Opaque guess dispenser",
+      "mechanism_bridge": "Clear collection cup = answer",
+      "confession_seed": "I can't tell if I did anything.",
+      "assist_notes": { "bias_id": "BIAS_AMBIGUITY_AVERSION", "attach_to": "Hollow" }
+    },
+    {
+      "candidate_id": "A08",
+      "working_title": "Self Erased",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "belief_move": "prove",
+      "belief_statement": "Endless congestion nights erase the person under 'mum'.",
+      "pain_refs": ["emotional_effects"],
+      "villain_seed": "Unfinished night loop + advice to just cope",
+      "mechanism_bridge": "Finished visible clear → sleep → self returns",
+      "confession_seed": "2 a.m. clear-out",
+      "assist_notes": { "bias_id": "BIAS_PROJECTION", "attach_to": "Hollow" }
+    },
+    {
+      "candidate_id": "A09",
+      "working_title": "Clears Fast",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "prove",
+      "belief_statement": "Clears congestion instantly.",
+      "pain_refs": ["pain_points[5]"],
+      "villain_seed": "weak tools",
+      "mechanism_bridge": "stronger suction",
+      "confession_seed": "clears instantly",
+      "assist_notes": { "bias_id": "HEUR_SCARCITY", "attach_to": "Verdict" }
+    }
+  ]
+}

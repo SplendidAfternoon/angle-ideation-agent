@@ -1,0 +1,70 @@
+{
+  "run_id": "20260816-pawsitive-calm",
+  "methodology": "angle-ideation-agent@1.6.3",
+  "critic": "angle-gate-critic@1.6.3",
+  "result": "PASS",
+  "revision_loop": 0,
+  "telemetry": {
+    "trace_id": "trace-20260816-pawsitive-calm-judge-001",
+    "model_version": "gemini-1.5-pro",
+    "temperature": 0.1,
+    "tokens_in": 1200,
+    "tokens_out": 450
+  },
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete advice villain ('magical' myth); sensory dream anchor (reading book in silence); no ad-ese."
+    },
+    {
+      "angle_ordinal": 2,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete tool villain (pheremone collars); sensory dream anchor (locking door loudly); past-tense headline."
+    },
+    {
+      "angle_ordinal": 3,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete tool villain (CBD drops); sensory dream anchor (waking up to alarm clock at 7 AM); emotional voltage high."
+    },
+    {
+      "angle_ordinal": 4,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete tool villain (Thunder shirts); sensory dream anchor (hearing puppy sigh); no product token."
+    },
+    {
+      "angle_ordinal": 5,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete social villain (judgmental friends); sensory dream anchor (neighbor saying it's quiet); past-tense headline."
+    },
+    {
+      "angle_ordinal": 6,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete advice villain (trainers saying 'cry it out'); sensory dream anchor (calmly stretching in morning); no banned words."
+    }
+  ]
+}

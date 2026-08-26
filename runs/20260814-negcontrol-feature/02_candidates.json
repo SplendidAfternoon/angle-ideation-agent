@@ -1,0 +1,73 @@
+{
+  "run_id": "20260814-negcontrol-feature",
+  "methodology": "angle-ideation-agent@1.5.0",
+  "notes": "NEGATIVE CONTROL — candidates are features/claims/offers on purpose.",
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "working_title": "Hospital-grade claim",
+      "currency_id": "SAFETY_SECURITY",
+      "belief_move": "prove",
+      "belief_statement": "Hospital-grade suction clears mucus in seconds",
+      "pain_refs": [],
+      "villain_seed": "n/a",
+      "mechanism_bridge": "suction power",
+      "confession_seed": "Buy Baby Bubble"
+    },
+    {
+      "candidate_id": "C02",
+      "working_title": "Mood hollow",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "belief_move": "prove",
+      "belief_statement": "She felt stressed",
+      "pain_refs": [],
+      "villain_seed": "parenthood",
+      "mechanism_bridge": "product helps",
+      "confession_seed": "stressed every night"
+    },
+    {
+      "candidate_id": "C03",
+      "working_title": "Offer angle",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "prove",
+      "belief_statement": "20% off the aspirator moms swear by",
+      "pain_refs": [],
+      "villain_seed": "price",
+      "mechanism_bridge": "discount",
+      "confession_seed": "order now"
+    },
+    {
+      "candidate_id": "C04",
+      "working_title": "Unboxing dream",
+      "currency_id": "TRUST_SAFETY",
+      "belief_move": "prove",
+      "belief_statement": "Clear cup is a game-changer",
+      "pain_refs": [],
+      "villain_seed": "the situation",
+      "mechanism_bridge": "box joy",
+      "confession_seed": "opened the box"
+    },
+    {
+      "candidate_id": "C05",
+      "working_title": "Synonym stress 2",
+      "currency_id": "GUILT_REGRET",
+      "belief_move": "prove",
+      "belief_statement": "She felt overwhelmed and sad",
+      "pain_refs": [],
+      "villain_seed": "parenthood is hard",
+      "mechanism_bridge": "product",
+      "confession_seed": "stressed and overwhelmed"
+    },
+    {
+      "candidate_id": "C06",
+      "working_title": "No-twist feature sheet",
+      "currency_id": "RELATIONAL_EQUITY",
+      "belief_move": "prove",
+      "belief_statement": "Must-have transparent collection cup",
+      "pain_refs": [],
+      "villain_seed": "the loop",
+      "mechanism_bridge": "feature list",
+      "confession_seed": "tried bulb bought product slept"
+    }
+  ]
+}

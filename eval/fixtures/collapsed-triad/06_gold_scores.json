@@ -1,0 +1,13 @@
+{
+  "run_id": "eval-collapsed-triad",
+  "pack_mean": 4.52,
+  "pack_pass": true,
+  "angles": [
+    {"ordinal": 1, "score": 4.5, "passed": true},
+    {"ordinal": 2, "score": 4.5, "passed": true},
+    {"ordinal": 3, "score": 4.5, "passed": true},
+    {"ordinal": 4, "score": 4.5, "passed": true},
+    {"ordinal": 5, "score": 4.5, "passed": true},
+    {"ordinal": 6, "score": 4.5, "passed": true}
+  ]
+}

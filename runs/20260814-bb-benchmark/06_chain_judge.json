@@ -1,0 +1,81 @@
+{
+  "run_id": "20260814-bb-benchmark",
+  "methodology": "angle-ideation-agent@1.6.1",
+  "critic": "angle-gate-critic@1.6.0",
+  "result": "PASS",
+  "revision_loop": 1,
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Blind hospital bulb; Q3 crib not counting; Q8 ear/chest, no product"
+    },
+    {
+      "angle_ordinal": 2,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Mouth-suction tube; Q3 pass device without speech; Q8 mouth suction"
+    },
+    {
+      "angle_ordinal": 3,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Sealed rubber bulb; Q3 open pieces on counter; Q8 wash the inside"
+    },
+    {
+      "angle_ordinal": 4,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Opaque weak clear-outs; Q3 unused extras in the drawer; Q8 blind tools"
+    },
+    {
+      "angle_ordinal": 5,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Hospital bulb then mouth tube same night; Q3 kitchen shared quiet; Q8 rota"
+    },
+    {
+      "angle_ordinal": 6,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Hospital bulb through her scream; Q3 body heavy on chest; Q8 hurting her"
+    },
+    {
+      "angle_ordinal": 7,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Sealed guess dispenser; Q3 advice screenshot unopened; Q8 advice stacked"
+    },
+    {
+      "angle_ordinal": 8,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Q2 Just-cope newborn-stage + hospital bulb; Q3 morning glass; Q8 no version of me"
+    }
+  ]
+}

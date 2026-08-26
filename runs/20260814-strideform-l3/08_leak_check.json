@@ -1,0 +1,40 @@
+{
+  "run_id": "20260814-strideform-l3",
+  "methodology": "angle-ideation-agent@1.4.0",
+  "result": "PASS",
+  "scanned_artifacts": [
+    "05_angle_pack.md",
+    "01_angle_fuel.json",
+    "04_reasoning_chains.json"
+  ],
+  "forbidden_from_prior_niches": [
+    {
+      "niche": "Baby Bubble / nasal aspirator",
+      "tokens": [
+        "Baby Bubble",
+        "bulb",
+        "mucus",
+        "mouth suction",
+        "NoseFrida",
+        "mould",
+        "collection cup",
+        "congestion"
+      ],
+      "hits": []
+    },
+    {
+      "niche": "Rootline / hair loss",
+      "tokens": [
+        "Rootline",
+        "DHT",
+        "follicle",
+        "thinning",
+        "serum",
+        "hairline",
+        "miniatur"
+      ],
+      "hits": []
+    }
+  ],
+  "notes": "Third-niche transfer live demo; no prior-niche content leaks detected."
+}

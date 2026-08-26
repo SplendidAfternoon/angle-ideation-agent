@@ -1,0 +1,134 @@
+{
+  "run_id": "20260813-bb-l2",
+  "methodology": "angle-ideation-agent@1.1.0",
+  "chains": [
+    {
+      "candidate_id": "C01",
+      "Q1_specific_loss": "She loses trust in her own judgment at night — every gurgle becomes a danger scan; rest is impossible.",
+      "Q2_villain": "Opaque, weak feedback tools (bulb as sealed guess dispenser) that leave her diagnosing alone.",
+      "Q3_dream": "Standing by the bassinet without counting breaths — just resting.",
+      "Q4_currency": "SAFETY_SECURITY",
+      "Q5_beats": "Setup: careful new mum. Action: night checks, saline, bulb. Twist: problem was nose blockage she couldn't see, not her failing instincts. Verdict: visibility + clear ends the second-guessing whether to call the nurse line.",
+      "Q6_product_fit": "Transparent chamber and regulated suction show and remove mucus fast so she gets an answer instead of a guess.",
+      "Q7_belief": "Prove: night congestion can sound like can't-breathe; she isn't crazy for caring deeply.",
+      "Q8_headline_candidates": [
+        "I kept checking his breathing and still couldn't trust myself.",
+        "His congestion terrifies me ended only when I could see.",
+        "I ran second-guessing whether to call the nurse line every feed over a blocked nose."
+      ],
+      "chosen_headline": "I kept checking his breathing and still couldn't trust myself."
+    },
+    {
+      "candidate_id": "C02",
+      "Q1_specific_loss": "She thought she was helping; discovers the trusted hospital tool may have been contaminating the nose.",
+      "Q2_villain": "Sealed rubber bulb body that hides moisture and black mould.",
+      "Q3_dream": "Watching the baby sleep without replaying what she put up their nose.",
+      "Q4_currency": "TRUST_SAFETY",
+      "Q5_beats": "Setup: trusted hospital bulb. Action: nightly use. Twist: cut open / smell / mould. Verdict: only fully openable transparent parts are acceptable.",
+      "Q6_product_fit": "Detachable transparent chamber — clean, see, sterilise; nothing sealed to betray.",
+      "Q7_belief": "Shift: the 'safe' default tool can be the contamination vector.",
+      "Q8_headline_candidates": [
+        "I sliced the hospital bulb and found black mould inside.",
+        "The bulb I trusted hid black mould from me.",
+        "Black mould was living in the tool I used nightly."
+      ],
+      "chosen_headline": "I sliced the hospital bulb and found black mould inside."
+    },
+    {
+      "candidate_id": "C05",
+      "Q1_specific_loss": "Agency — credit-card shopping through the same broken aspirator idea, blaming herself for empty results.",
+      "Q2_villain": "The whole category pattern: sealed uncleanable, mouth-disgusting, or fading electric suction.",
+      "Q3_dream": "A clear-out where something actually comes out and the night stops being a product roulette.",
+      "Q4_currency": "AGENCY_CONTROL",
+      "Q5_beats": "Setup: solution-aware mum. Action: saline, bulb, mouth tube, cheap electric. Twist: same failure modes in different boxes. Verdict: shop mechanism (see + clean + control), not packaging.",
+      "Q6_product_fit": "Built around visibility, full cleanability, regulated suction — the traits the failed category skipped.",
+      "Q7_belief": "Shift: more SKUs ≠ progress if mechanism is unchanged.",
+      "Q8_headline_candidates": [
+        "Three snot suckers later and nothing still came out.",
+        "I kept buying aspirators that failed the same way.",
+        "Nothing came out until I stopped shopping the category."
+      ],
+      "chosen_headline": "Three snot suckers later and nothing still came out."
+    },
+    {
+      "candidate_id": "C06",
+      "Q1_specific_loss": "Cannot hand the job to her partner; isolation inside the couple.",
+      "Q2_villain": "Mouth-suction design that demands one parent's mouth and disgust tolerance.",
+      "Q3_dream": "Handing him the device without a knot in her stomach.",
+      "Q4_currency": "AGENCY_PARTNERSHIP",
+      "Q5_beats": "Setup: partner offers help. Action: she refuses mouth tube. Twist: tool decided who can parent this task. Verdict: mouth-free hygienic clear restores shared care.",
+      "Q6_product_fit": "No mouth contact; easy handoff; hygiene without a lecture.",
+      "Q7_belief": "Shift: refusal wasn't about his competence — the tool blocked partnership.",
+      "Q8_headline_candidates": [
+        "He offered to suction. I refused. I stayed alone.",
+        "Mouth suction made me the only parent who could help.",
+        "I said no to his help because of the mouth tube."
+      ],
+      "chosen_headline": "He offered to suction. I refused. I stayed alone."
+    },
+    {
+      "candidate_id": "C03",
+      "Q1_specific_loss": "Moral self-image — feels like a mean mother while trying to help.",
+      "Q2_villain": "Blind/irritating rituals and culture that frame necessary care as her cruelty.",
+      "Q3_dream": "A clear-out that feels like care, not trauma — baby settles, she doesn't hate herself.",
+      "Q4_currency": "GUILT_REGRET",
+      "Q5_beats": "Setup: wants to protect. Action: wrestling clear-outs that make her feel mean. Twist: tool/ritual produced the guilt. Verdict: gentler visible mechanism lets guilt become relief.",
+      "Q6_product_fit": "Soft tip, controlled suction, satisfying visible clear — help without the traumatizing script.",
+      "Q7_belief": "Shift: guilt was mis-aimed; fix the method.",
+      "Q8_headline_candidates": [
+        "I felt so mean clearing her nose I almost stopped.",
+        "Helping her breathe made me feel like a monster.",
+        "I blamed myself for every cry during nose clearing."
+      ],
+      "chosen_headline": "I felt so mean clearing her nose I almost stopped."
+    },
+    {
+      "candidate_id": "C09",
+      "Q1_specific_loss": "Authority — she cannot know what is happening; expertise collapses into guessing.",
+      "Q2_villain": "Opaque bulb / no visual proof — sealed guess dispenser.",
+      "Q3_dream": "Seeing gunk in the chamber and knowing the job is done.",
+      "Q4_currency": "AUTHORITY",
+      "Q5_beats": "Setup: wants to be a capable parent. Action: bulb gives noise not evidence. Twist: she needed sight, not more force. Verdict: transparent chamber restores knowing.",
+      "Q6_product_fit": "Transparent collection chamber — see and hear the difference.",
+      "Q7_belief": "Shift: competence requires feedback the old tools withheld.",
+      "Q8_headline_candidates": [
+        "The bulb gave noise. It never gave me an answer.",
+        "I needed to see the gunk not guess in the dark.",
+        "Without seeing anything I stopped trusting my own hands."
+      ],
+      "chosen_headline": "The bulb gave noise. It never gave me an answer."
+    },
+    {
+      "candidate_id": "C04",
+      "Q1_specific_loss": "Selfhood — always ON through congestion nights; she doesn't feel human.",
+      "Q2_villain": "Endless ineffective night loop that keeps hypervigilance locked on.",
+      "Q3_dream": "A ordinary morning where she feels more human again.",
+      "Q4_currency": "IDENTITY_SELFHOOD",
+      "Q5_beats": "Setup: person with a life. Action: upside-down nights, dread. Twist: congestion loop was erasing her, not 'new mum personality.' Verdict: clear → sleep → self returns.",
+      "Q6_product_fit": "Effective hygienic clear shortens the always-ON night so identity can reappear.",
+      "Q7_belief": "Prove: this isn't who she has to become permanently.",
+      "Q8_headline_candidates": [
+        "Always ON through congestion nights erased who I was.",
+        "My world stayed upside down until her nose cleared.",
+        "I stopped feeling human somewhere between the night feeds."
+      ],
+      "chosen_headline": "Always ON through congestion nights erased who I was."
+    },
+    {
+      "candidate_id": "C08",
+      "Q1_specific_loss": "Partnership eroded into opposing night shifts; neither sleeps.",
+      "Q2_villain": "Nightly failed clear-outs that steal shared rest (tools that don't finish the job).",
+      "Q3_dream": "Same room, shared quiet after a clear that actually worked.",
+      "Q4_currency": "RELATIONAL_EQUITY",
+      "Q5_beats": "Setup: team. Action: alternating wakes, congestion. Twist: fighting each other while the nose stayed blocked. Verdict: mechanism restores sleep → restores us.",
+      "Q6_product_fit": "Clears congestion so both can sleep — partnership instead of shift rotation.",
+      "Q7_belief": "Prove: congestion isn't only a baby problem; it taxes the couple.",
+      "Q8_headline_candidates": [
+        "Neither of us slept until we fought the wrong enemy.",
+        "Congestion turned us into opposing night shifts.",
+        "We stopped being partners somewhere around week six."
+      ],
+      "chosen_headline": "Neither of us slept until we fought the wrong enemy."
+    }
+  ]
+}

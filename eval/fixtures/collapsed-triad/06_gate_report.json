@@ -1,0 +1,16 @@
+{
+  "run_id": "eval-collapsed-triad",
+  "methodology": "angle-ideation-agent@1.7.0",
+  "critic": "angle-gate-critic@1.6.3",
+  "result": "PASS",
+  "gates": {
+    "A-HOLLOW": {"status": "PASS", "evidence": "Scene-level emotional loss"},
+    "A-VILLAIN": {"status": "PASS", "evidence": "Concrete tool/advice pattern"},
+    "A-DREAM": {"status": "PASS", "evidence": "Sensory resolution moment"},
+    "A-DOOR": {"status": "PASS", "evidence": "Product is mechanism doorway"},
+    "A-BELIEF": {"status": "PASS", "evidence": "Clear belief shift"},
+    "P-DISTINCT": {"status": "PASS", "evidence": "Distinct psychosocial currencies"},
+    "P-STORY": {"status": "PASS", "evidence": "4-beat story arcs complete"}
+  },
+  "cold_reread": {"completed": true, "notes": "Audited with fresh eye; passes all criteria"}
+}

@@ -1,0 +1,216 @@
+{
+  "run_id": "20260814-negcontrol-feature",
+  "methodology": "angle-ideation-agent@1.5.0",
+  "critic": "angle-gate-critic@1.5.0",
+  "pack_status_recommendation": "Blocked",
+  "revision_loop": 0,
+  "few_shot_catalog": "docs/04 §9 F01–F12 loaded",
+  "preflight": {
+    "validate_headlines": "FAIL",
+    "validate_pack_preflight": "PASS"
+  },
+  "gates": [
+    {
+      "gate_id": "I-AVATAR",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "nights are ruled by a blocked nose: feeding stalls, sleep shatters",
+      "notes": "fuel present; pack still invalid"
+    },
+    {
+      "gate_id": "I-PRODUCT",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "clear collection cup so mucus is visible when removed",
+      "notes": ""
+    },
+    {
+      "gate_id": "I-PROBLEM",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Congestion sounds like the baby cannot breathe",
+      "notes": ""
+    },
+    {
+      "gate_id": "I-FUEL",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "mechanism not UNKNOWN",
+      "notes": ""
+    },
+    {
+      "gate_id": "I-VOICE",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "can't breathe / hospital bulb / feel so mean",
+      "notes": "fuel vocab exists; pack voice is corporate"
+    },
+    {
+      "gate_id": "I-BRIEF",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Scenario B thin inputs in 00_route",
+      "notes": ""
+    },
+    {
+      "gate_id": "H1",
+      "scope": "all",
+      "result": "PASS",
+      "evidence": "word_count≤12 on sampled headlines",
+      "notes": "other H* fail"
+    },
+    {
+      "gate_id": "H2",
+      "scope": "angle:3",
+      "result": "FAIL",
+      "evidence": "Order now — hospital-grade miracle hack.",
+      "notes": "present-tense pitch",
+      "fix_hint": "Rewrite headlines to past consequence; no offer language"
+    },
+    {
+      "gate_id": "H4",
+      "scope": "all",
+      "result": "FAIL",
+      "evidence": "Baby Bubble changed our sleepless nights forever.",
+      "notes": "F09 class; script:validate_headlines 6/6 failed",
+      "fix_hint": "Remove product/brand tokens from all headlines"
+    },
+    {
+      "gate_id": "H5",
+      "scope": "angle:2",
+      "result": "FAIL",
+      "evidence": "At 3am I realized our bulb was the problem.",
+      "notes": "F08 preamble",
+      "fix_hint": "Consequence-first; drop At/For weeks/Today openings"
+    },
+    {
+      "gate_id": "H6",
+      "scope": "angle:3",
+      "result": "FAIL",
+      "evidence": "Order now — hospital-grade miracle hack.",
+      "notes": "F09/F12 ad-ese: order now, hospital-grade, miracle, hack",
+      "fix_hint": "Delete ad-ese ban tokens; confessable voice"
+    },
+    {
+      "gate_id": "A-CORE",
+      "scope": "angle:1",
+      "result": "FAIL",
+      "evidence": "Hospital-grade suction clears mucus in seconds.",
+      "notes": "F01 feature/claim, no core friction",
+      "fix_hint": "Rewrite Core Idea as core friction + escalation, not a spec claim"
+    },
+    {
+      "gate_id": "A-CORE",
+      "scope": "angle:3",
+      "result": "FAIL",
+      "evidence": "20% off the aspirator moms swear by.",
+      "notes": "F12 offer-as-angle",
+      "fix_hint": "Reject offer; replace with belief move"
+    },
+    {
+      "gate_id": "A-HOLLOW",
+      "scope": "angle:1",
+      "result": "FAIL",
+      "evidence": "She felt stressed and overwhelmed every night.",
+      "notes": "F02 mood-only",
+      "fix_hint": "Name a scene-level loss (identity/partnership/competence)"
+    },
+    {
+      "gate_id": "A-VILLAIN",
+      "scope": "angle:1",
+      "result": "FAIL",
+      "evidence": "Parenthood is just really hard.",
+      "notes": "F03 situation not object",
+      "fix_hint": "Bind villain to bulb/mouth-tube/category flaw from fuel"
+    },
+    {
+      "gate_id": "A-DREAM",
+      "scope": "angle:1",
+      "result": "FAIL",
+      "evidence": "Finally she was happy and life got better.",
+      "notes": "F04 summary not sensory",
+      "fix_hint": "Render one sensory moment with place/body/sound"
+    },
+    {
+      "gate_id": "A-DOOR",
+      "scope": "angle:2",
+      "result": "FAIL",
+      "evidence": "I opened the Baby Bubble box and cried happy tears.",
+      "notes": "F05 product as dream climax",
+      "fix_hint": "Dream = life after mechanism, not unboxing"
+    },
+    {
+      "gate_id": "A-ARC",
+      "scope": "angle:6",
+      "result": "FAIL",
+      "evidence": "Tried the bulb. Bought the product. Slept.",
+      "notes": "F10 missing twist",
+      "fix_hint": "Add wrong-enemy reveal beat"
+    },
+    {
+      "gate_id": "A-FIT",
+      "scope": "all",
+      "result": "FAIL",
+      "evidence": "Our product helps tired moms.",
+      "notes": "generic praise",
+      "fix_hint": "Bridge this mechanism to this hollow"
+    },
+    {
+      "gate_id": "A-VOICE",
+      "scope": "pack",
+      "result": "FAIL",
+      "evidence": "Literally obsessed with the cup.",
+      "notes": "corporate/ad-ese vs fuel vocab",
+      "fix_hint": "Echo fuel phrases; drop influencer register"
+    },
+    {
+      "gate_id": "P-COUNT",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Contains: 6 angles",
+      "notes": ""
+    },
+    {
+      "gate_id": "P-DISTINCT",
+      "scope": "pack",
+      "result": "FAIL",
+      "evidence": "She felt stressed and overwhelmed every night.",
+      "notes": "F06 class: angles 1,2,5 hollows are noun-swapped mood synonyms (same core friction)",
+      "fix_hint": "Replace with distinct scene losses; pairwise hollow check"
+    },
+    {
+      "gate_id": "P-FEELS-REAL",
+      "scope": "pack",
+      "result": "FAIL",
+      "evidence": "Zero angles survive if product name is removed — feature sheets remain",
+      "notes": "docs/04 §5.1 item 2 fail; also unboxing/offer pack",
+      "fix_hint": "Rewrite as belief stories; product as door"
+    },
+    {
+      "gate_id": "P-ARTIFACTS",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "04_reasoning_chains.json + 03_filter_score_log.json present",
+      "notes": "artifacts exist; content is invalid by design"
+    },
+    {
+      "gate_id": "P-HEADLINES-TABLE",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Headline Rules Applied table present (self-reports No)",
+      "notes": ""
+    },
+    {
+      "gate_id": "P-SUMMARY",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Summary Table 6 rows match body headlines",
+      "notes": ""
+    }
+  ],
+  "cold_reread": {
+    "completed": true,
+    "failures_found": ["H4", "H5", "H6", "A-CORE", "A-HOLLOW", "A-VILLAIN", "A-DREAM", "A-DOOR", "A-ARC", "P-DISTINCT", "P-FEELS-REAL"],
+    "rechecked": ["H*", "A-VILLAIN", "A-DREAM", "P-DISTINCT"]
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "candidate_id": "C01",
+    "working_title": "The Widened Temples Mirror Shock",
+    "currency_id": "VANITY_AESTHETICS",
+    "belief_move": "shift",
+    "belief_statement": "Postpartum shedding isn't an inevitable 12-month wait; it is an active follicle signal failure that can be halted topically.",
+    "pain_refs": ["pain_points[1]"],
+    "villain_seed": "The 'just wait it out, it's just hormones' brush-off advice that lets follicles wither into long-term dormancy",
+    "mechanism_bridge": "Bio-fermented signaling peptides directly reactivate anagen anchoring at the follicle root",
+    "confession_seed": "Looking in the rearview mirror and seeing white scalp shining through widened temples."
+  },
+  {
+    "candidate_id": "C02",
+    "working_title": "The Partner Intimacy Withdrawal",
+    "currency_id": "RELATIONAL_EQUITY",
+    "belief_move": "shift",
+    "belief_statement": "The shame of shedding over your partner isn't a personal flaw; it's a structural hair detachment that has a targeted topical solution.",
+    "pain_refs": ["pain_points[2]"],
+    "villain_seed": "Heavy rosemary dropper oils that make hair look greasier and pull out even more strands during washing",
+    "mechanism_bridge": "Micro-encapsulated capixyl anchors follicles without heavy oils or greasy residues",
+    "confession_seed": "Apologizing to my husband when he pulled a clump of my shed hair off his chest."
+  },
+  {
+    "candidate_id": "C03",
+    "working_title": "The Shower Drain Breakdown",
+    "currency_id": "AUTONOMY_AGENCY",
+    "belief_move": "shift",
+    "belief_statement": "You are not helpless against postpartum shedding; you can physically interrupt the telogen detachment cycle.",
+    "pain_refs": ["pain_points[0]"],
+    "villain_seed": "Digestive biotin gummies that flood your stomach with sugar but never reach hormone-shocked scalp roots",
+    "mechanism_bridge": "Direct dermal papilla delivery forces dormant follicles back into active growth cycles",
+    "confession_seed": "Standing in the shower with a bird's nest of hair stuck to my palms, terrified to rinse."
+  },
+  {
+    "candidate_id": "C04",
+    "working_title": "The Return to Work Imposter Fear",
+    "currency_id": "SOCIAL_STATUS",
+    "belief_move": "shift",
+    "belief_statement": "Thinning hair doesn't mean your vitality is gone; it's a temporary mechanical detachment you can reverse before maternity leave ends.",
+    "pain_refs": ["future_fears[1]"],
+    "villain_seed": "Generic Minoxidil foam that causes terrifying dread-shed and isn't safe for nursing mothers",
+    "mechanism_bridge": "Hormone-free peptide signaling that restores hairline density without shedding spikes",
+    "confession_seed": "Dreading walking into the office with see-through temples and thin, stringy hair."
+  },
+  {
+    "candidate_id": "C05",
+    "working_title": "The Medical Gaslighting Alarm",
+    "currency_id": "SAFETY_SECURITY",
+    "belief_move": "shift",
+    "belief_statement": "Heavy shedding isn't something to ignore; it's a localized follicle crisis that requires immediate bio-active intervention.",
+    "pain_refs": ["future_fears[2]"],
+    "villain_seed": "Generic postpartum advice pamphlets that normalize losing half your hair without offering a real mechanism",
+    "mechanism_bridge": "Clinically proven capixyl complex that strengthens the follicle anchor within 14 days",
+    "confession_seed": "Panicking that my thyroid was collapsing because hair was coming out in fistfuls."
+  },
+  {
+    "candidate_id": "C06",
+    "working_title": "The Influencer Oil Trap",
+    "currency_id": "RESOURCE_PRESERVATION",
+    "belief_move": "shift",
+    "belief_statement": "Spending hundreds on viral botanical oils worsens shedding by clogging fragile roots.",
+    "pain_refs": ["failed_attempts[1]"],
+    "villain_seed": "Viral TikTok castor oil trends that suffocate postpartum scalps and trigger accelerated shedding",
+    "mechanism_bridge": "Ultra-lightweight fermented peptide serum that absorbs cleanly without follicle buildup",
+    "confession_seed": "Wasting $300 on fancy scalp oils that made my hair fall out twice as fast."
+  }
+]

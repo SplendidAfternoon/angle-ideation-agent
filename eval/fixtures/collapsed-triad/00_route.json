@@ -1,0 +1,11 @@
+{
+  "run_id": "eval-collapsed-triad",
+  "methodology": "angle-ideation-agent@1.7.0",
+  "scenario": "B",
+  "decision": "Eval fixture — stub triad. Must FAIL harness.",
+  "inputs_summary": {
+    "avatar_description": "Busy professionals",
+    "product_description": "StubBrand widget",
+    "problem_statement": "They want better results"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "working_title": "Arrival dream",
+      "currency_id": "SAFETY_SECURITY",
+      "belief_move": "shift",
+      "belief_statement": "Night sounds steal the ability to know",
+      "villain_seed": "hospital bulb",
+      "mechanism_bridge": "visible cup",
+      "confession_seed": "Ear to chest, learned nothing"
+    },
+    {
+      "candidate_id": "C02",
+      "working_title": "Mechanism as action",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "prove",
+      "belief_statement": "Trying harder with blind tools is not a plan",
+      "villain_seed": "opaque upgrades",
+      "mechanism_bridge": "visible collection",
+      "confession_seed": "Kept buying tools that showed nothing"
+    },
+    {
+      "candidate_id": "C03",
+      "working_title": "Hook mashup",
+      "currency_id": "RELATIONAL_EQUITY",
+      "belief_move": "shift",
+      "belief_statement": "When the tool needs a mouth, help stops being shareable",
+      "villain_seed": "mouth tube",
+      "mechanism_bridge": "no mouth contact",
+      "confession_seed": "He offered; the ritual said no"
+    }
+  ]
+}

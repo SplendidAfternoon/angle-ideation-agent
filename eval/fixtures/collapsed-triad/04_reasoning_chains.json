@@ -1,0 +1,17 @@
+{
+  "run_id": "eval-collapsed-triad",
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "Q1_hollow": "She felt stressed and overwhelmed every night.",
+      "Q2_villain": "Parenthood is just really hard.",
+      "Q3_dream": "Finally she was happy and life got better.",
+      "Q4_currency": "SAFETY_SECURITY",
+      "Q5_arc": "Tried nothing → bought product → slept",
+      "Q6_fit": "StubBrand is the best widget",
+      "Q7_core": "Hospital-grade suction clears mucus in seconds.",
+      "Q8_headlines": ["StubBrand changed our sleepless nights forever."],
+      "headline_picked": "StubBrand changed our sleepless nights forever."
+    }
+  ]
+}

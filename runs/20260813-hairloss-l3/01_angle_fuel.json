@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "scenario": "B",
+    "methodology": "angle-ideation-agent@1.1.1",
+    "product_name": "Rootline Serum",
+    "source_refs": ["Scenario B thin inputs in 00_route.json; mini-brief PLAUSIBLE_INFERENCE"]
+  },
+  "avatar": {
+    "name": "The Quietly Thinning Thirties Man",
+    "description": "Men 30–42 who notice a wider part, temple recession, or crown thinning in bathroom lighting. Still early enough to hope it's stress or a bad cut, late enough that photos and meetings make avoidance a habit. Competes silently with younger coworkers and with the version of himself from five years ago.",
+    "awareness_notes": "Mix of problem-aware (notices shed in drain) and solution-aware (tried minoxidil/oils/gummies); some product-aware and skeptical after weak results.",
+    "labels": { "description": "PLAUSIBLE_INFERENCE" }
+  },
+  "pain_points": [
+    {
+      "cluster": "Mirror Avoidance",
+      "description": "Harsh bathroom light makes thinning undeniable; he starts avoiding angles and flash photos.",
+      "examples": ["I hate overhead lighting now.", "I delete half my photos before anyone sees them."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Identity Drift",
+      "description": "Hair was part of how he looked 'put together'; thinning feels like aging overnight.",
+      "examples": ["I don't look like myself in work photos.", "People say I look tired when I look thin on top."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "False Hope Cycle",
+      "description": "Tried oils, gummies, foam — temporary hope then same shed pattern.",
+      "examples": ["Rosemary made my bathroom smell like a pizza and did nothing.", "I did minoxidil for months and still saw scalp."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Social Competence",
+      "description": "Worries thinning reads as unkempt at work, dates, reunions.",
+      "examples": ["I wear caps more than I admit.", "I dread the wedding guest photos."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Future Milestone Fear",
+      "description": "Afraid the next big event will lock in a balding timeline.",
+      "examples": ["I don't want to look older than my brother at his wedding.", "By the time I 'figure it out' it will be too late."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Shame Secrecy",
+      "description": "Won't talk about it; researches at 1 a.m.; feels vain for caring.",
+      "examples": ["I feel stupid caring this much about hair.", "I research forums like it's classified."],
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Minoxidil foam/liquid",
+      "why_it_failed": "Messy, lifelong dependency framing, irritation; results felt slow or plateaued while shed continued.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Rosemary / natural oils",
+      "why_it_failed": "Smell, grease, no mechanism clarity; felt like cosplay science.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Biotin gummies",
+      "why_it_failed": "Easy to take, easy to believe, no visible density change.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Finasteride consideration / start-stop",
+      "why_it_failed": "Side-effect anxiety; stigma; not a cosmetic routine he wants to explain.",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "emotional_effects": ["Embarrassment", "Anxiety", "Frustration", "Shame", "Urgency", "Resignation"],
+  "exact_vocabulary": [
+    "wider part than last year",
+    "see scalp in overhead lighting",
+    "hair on the pillow",
+    "maturing hairline excuse",
+    "I look older in photos",
+    "cap lifestyle",
+    "forum deep dive at 1 a.m.",
+    "shed phase panic",
+    "dependency forever",
+    "greasy rosemary experiment",
+    "gummies did nothing",
+    "side effect rabbit hole"
+  ],
+  "future_fears": [
+    "Irreversible recession before a wedding or reunion",
+    "Looking older than peers at work",
+    "Starting a treatment too late",
+    "Being the guy who waited and regretted"
+  ],
+  "product_fit": {
+    "mechanism": "Alcohol-free leave-in serum with measured dropper dosing aimed at reducing DHT activity at the follicle while staying wearable in a daily routine without grease theater.",
+    "how_it_resolves": "Gives a mechanism-level story beyond vitamins/oils, with a controllable daily ritual that targets the hormonal driver men already halfway believe after research.",
+    "label": "PLAUSIBLE_INFERENCE"
+  },
+  "competitors": [
+    {
+      "name": "Minoxidil",
+      "loved": "Known, some real regrowth stories",
+      "hated": "Mess, forever use framing, irritation, shed panic",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "name": "Rosemary oil",
+      "loved": "Natural narrative",
+      "hated": "Smell, grease, weak proof",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "name": "Biotin gummies",
+      "loved": "Easy habit",
+      "hated": "No visible change; feels like placebo",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "name": "Finasteride",
+      "loved": "Strong mechanism reputation",
+      "hated": "Side-effect fear; medical identity shift",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "psychosocial_currencies_candidates": [
+    { "currency_id": "IDENTITY_SELFHOOD", "why_it_applies": "Doesn't look like himself", "evidence_refs": ["pain_points[1]"], "label": "DERIVED" },
+    { "currency_id": "SOCIAL_STATUS", "why_it_applies": "Work/photos/competence signal", "evidence_refs": ["pain_points[3]"], "label": "DERIVED" },
+    { "currency_id": "FUTURE_SECURITY", "why_it_applies": "Milestone dread", "evidence_refs": ["pain_points[4]"], "label": "DERIVED" },
+    { "currency_id": "AGENCY_CONTROL", "why_it_applies": "False hope cycle", "evidence_refs": ["pain_points[2]"], "label": "DERIVED" },
+    { "currency_id": "GUILT_REGRET", "why_it_applies": "Waited / researched too long", "evidence_refs": ["future_fears"], "label": "DERIVED" },
+    { "currency_id": "TRUST_SAFETY", "why_it_applies": "Natural oils / gummies felt like betrayal of trust in simple fixes", "evidence_refs": ["failed_attempts[1]", "failed_attempts[2]"], "label": "DERIVED" },
+    { "currency_id": "AUTHORITY", "why_it_applies": "Forum chaos; doesn't know who to believe", "evidence_refs": ["exact_vocabulary[forum deep dive at 1 a.m.]"], "label": "DERIVED" },
+    { "currency_id": "SAFETY_SECURITY", "why_it_applies": "Finasteride side-effect fear as bodily safety", "evidence_refs": ["failed_attempts[3]"], "label": "DERIVED" }
+  ],
+  "beliefs": {
+    "held": [
+      "Thinning is noticeable to others even when they don't say it.",
+      "Vitamins and oils often disappoint.",
+      "Waiting makes outcomes worse."
+    ],
+    "ready_to_shift": [
+      "It's not just stress or a bad cut — DHT at the follicle is a plausible driver.",
+      "A measured daily serum routine can be a different mechanism than foam dependency theater or greasy folklore."
+    ],
+    "label": "DERIVED"
+  },
+  "gaps": [
+    {
+      "field": "clinical citations / brand-owned studies",
+      "status": "UNKNOWN",
+      "impact": "Scenario B plausible only; do not invent trial stats in Product Fit."
+    }
+  ]
+}

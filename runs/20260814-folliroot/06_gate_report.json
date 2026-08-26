@@ -1,0 +1,64 @@
+{
+  "run_id": "20260814-folliroot",
+  "methodology": "angle-ideation-agent@1.6.3",
+  "critic": "angle-gate-critic@1.6.3",
+  "pack_status_recommendation": "Ready for Pre-Lander Agent",
+  "gates": [
+    {
+      "gate_id": "A-HOLLOW",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Every angle contains a scene-level grief moment ('see-through temples in rearview mirror', 'bird's nest on palms')."
+    },
+    {
+      "gate_id": "A-VILLAIN",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Villains are concrete external objects/patterns ('dismissive medical advice', 'heavy rosemary dropper oils', 'biotin gummies')."
+    },
+    {
+      "gate_id": "A-DREAM",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Sensory resolution moments present ('clean high ponytail', 'resting head against his chest', 'clear drain')."
+    },
+    {
+      "gate_id": "A-DOOR",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Product is strictly a mechanism doorway resolving the biological signal; never the emotional climax."
+    },
+    {
+      "gate_id": "A-BELIEF",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Clear belief moves shifting from passive waiting/surface oils to active topical peptide signaling."
+    },
+    {
+      "gate_id": "P-DISTINCT",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "6 distinct psychosocial currencies represented with zero duplicate emotional territory."
+    },
+    {
+      "gate_id": "P-STORY",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "All angles contain complete 4-beat Setup -> Action -> Twist -> Verdict narrative arcs."
+    },
+    {
+      "gate_id": "H-RULES",
+      "scope": "pack",
+      "result": "PASS",
+      "evidence": "Headlines strictly follow H1-H6; past tense, 5-12 words, zero ad-ese, no product names."
+    }
+  ],
+  "cold_reread": {
+    "completed": true,
+    "failures_found": []
+  },
+  "preflight": {
+    "validate_headlines": "PASS",
+    "validate_pack_preflight": "PASS"
+  }
+}

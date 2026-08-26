@@ -1,0 +1,31 @@
+{
+  "run_id": "20260813-hairloss-l3",
+  "methodology": "angle-ideation-agent@1.1.1",
+  "formula": "S = E × M × W",
+  "results": [
+    { "candidate_id": "H01", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 5, "M": 4, "W": 4, "S": 80, "notes": "" },
+    { "candidate_id": "H02", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 4, "M": 3, "W": 4, "S": 48, "notes": "" },
+    { "candidate_id": "H03", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 5, "M": 4, "W": 5, "S": 100, "notes": "" },
+    { "candidate_id": "H04", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 4, "M": 5, "W": 4, "S": 80, "notes": "" },
+    { "candidate_id": "H05", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 4, "M": 4, "W": 4, "S": 64, "notes": "" },
+    { "candidate_id": "H06", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 4, "M": 5, "W": 4, "S": 80, "notes": "" },
+    { "candidate_id": "H07", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 3, "M": 4, "W": 4, "S": 48, "notes": "" },
+    { "candidate_id": "H08", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 4, "M": 4, "W": 3, "S": 48, "notes": "Careful: no medical claims beyond fuel" },
+    { "candidate_id": "H09", "F1": "FAIL", "F2": "FAIL", "F3": "FAIL", "E": 2, "M": 2, "W": 1, "S": 4, "notes": "Commodity claim rejected" }
+  ],
+  "selected": [
+    { "candidate_id": "H03", "S": 100, "currency_id": "FUTURE_SECURITY" },
+    { "candidate_id": "H01", "S": 80, "currency_id": "IDENTITY_SELFHOOD" },
+    { "candidate_id": "H04", "S": 80, "currency_id": "AGENCY_CONTROL" },
+    { "candidate_id": "H06", "S": 80, "currency_id": "TRUST_SAFETY" },
+    { "candidate_id": "H05", "S": 64, "currency_id": "GUILT_REGRET" },
+    { "candidate_id": "H02", "S": 48, "currency_id": "SOCIAL_STATUS" },
+    { "candidate_id": "H07", "S": 48, "currency_id": "AUTHORITY" },
+    { "candidate_id": "H08", "S": 48, "currency_id": "SAFETY_SECURITY" }
+  ],
+  "rejected_after_score": [{ "candidate_id": "H09", "reason": "Failed filters" }],
+  "leak_scan_candidates": {
+    "baby_bubble_tokens_found": false,
+    "nasal_aspirator_tokens_found": false
+  }
+}

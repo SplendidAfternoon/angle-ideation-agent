@@ -1,0 +1,150 @@
+{
+  "run_id": "20260814-bb-benchmark",
+  "methodology": "angle-ideation-agent@1.6.0",
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "candidate_id": "C01",
+      "currency_id": "SAFETY_SECURITY",
+      "Q1_hollow": "Ability to know if this breath is enough \u2014 chest-check loop in the dark",
+      "Q2_villain": "Blind hospital bulb that returns noise and hope, never a visible answer",
+      "Q3_dream": "Standing by the crib not counting \u2014 just there",
+      "Q4_currency": "SAFETY_SECURITY",
+      "Q5_arc": "Ready parent \u2192 night watchman \u2192 saline/steam/bulb fail to prove \u2192 twist: working blind \u2192 cup shows leave",
+      "Q6_fit": "Clear collection cup makes mucus visible when it leaves",
+      "Q7_core": "Night sounds don't just wake you \u2014 they steal the ability to know what's true.",
+      "Q8_headlines": [
+        "I pressed my ear to his chest and learned nothing.",
+        "His chest rose and I still had no answer.",
+        "Checking his chest all night proved I was blind."
+      ],
+      "headline_picked": "I pressed my ear to his chest and learned nothing."
+    },
+    {
+      "angle_ordinal": 2,
+      "candidate_id": "C03",
+      "currency_id": "AGENCY_PARTNERSHIP",
+      "Q1_hollow": "Help exists but cannot be handed over; isolation inside the couple",
+      "Q2_villain": "Mouth-suction tube that demands one parent's mouth",
+      "Q3_dream": "Passing the device without a speech and without that knot",
+      "Q4_currency": "AGENCY_PARTNERSHIP",
+      "Q5_arc": "He offered \u2192 I refused \u2192 disgust not character \u2192 twist: tool decided who could help \u2192 no-mouth cup",
+      "Q6_fit": "Clear cup without mouth contact makes handoff possible",
+      "Q7_core": "When the tool needs someone's mouth, help stops being shareable.",
+      "Q8_headlines": [
+        "Mouth suction made help a job only I would take.",
+        "I said no when he offered the tube.",
+        "The mouth tube kept the night on one parent."
+      ],
+      "headline_picked": "Mouth suction made help a job only I would take."
+    },
+    {
+      "angle_ordinal": 3,
+      "candidate_id": "C02",
+      "currency_id": "TRUST_SAFETY",
+      "Q1_hollow": "Care ritual may have been contamination; gut-level betrayal",
+      "Q2_villain": "Sealed rubber bulb you cannot see, clean, or dry inside",
+      "Q3_dream": "Open pieces on the counter; nothing left to imagine growing in the dark",
+      "Q4_currency": "TRUST_SAFETY",
+      "Q5_arc": "Nurse handed the bulb \u2192 obeyed \u2192 smell/thought of the chamber \u2192 twist: helper hid \u2192 see-and-wash cup",
+      "Q6_fit": "Clear cleanable cup has no hidden chamber",
+      "Q7_core": "The tool you trusted to protect them may be the thing you should have feared.",
+      "Q8_headlines": [
+        "The bulb I trusted hid a smell I couldn't unsee.",
+        "I couldn't wash the inside of the hospital bulb.",
+        "A sealed bulb kept what I would never put in her nose."
+      ],
+      "headline_picked": "I couldn't wash the inside of the hospital bulb."
+    },
+    {
+      "angle_ordinal": 4,
+      "candidate_id": "C05",
+      "currency_id": "AGENCY_CONTROL",
+      "Q1_hollow": "Effort without feedback; still 'nothing comes out'",
+      "Q2_villain": "Opaque weak clear-outs (bulb / same idea in new boxes) that reward sunk shopping",
+      "Q3_dream": "The unused extras stay in the drawer; no fourth box in the line",
+      "Q4_currency": "AGENCY_CONTROL",
+      "Q5_arc": "Bulb then tube then electric \u2192 still blind \u2192 twist: more force wasn't the plan \u2192 need proof",
+      "Q6_fit": "Visible collection is the feedback loop",
+      "Q7_core": "Trying harder with tools that show you nothing is not a plan.",
+      "Q8_headlines": [
+        "Three tubes later I was still guessing in the dark.",
+        "I kept buying blind tools that showed me nothing.",
+        "Nothing comes out was the only result I ever got."
+      ],
+      "headline_picked": "I kept buying blind tools that showed me nothing."
+    },
+    {
+      "angle_ordinal": 5,
+      "candidate_id": "C07",
+      "currency_id": "RELATIONAL_EQUITY",
+      "Q1_hollow": "Partnership replaced by night logistics / rota",
+      "Q2_villain": "Hospital bulb then mouth tube failing in the same night so neither adult can clock out",
+      "Q3_dream": "Same kitchen, shared quiet, a night that ends because the nose actually cleared",
+      "Q4_currency": "RELATIONAL_EQUITY",
+      "Q5_arc": "Team \u2192 rota \u2192 blamed the shifts \u2192 twist: unfinished blockage \u2192 visible finish",
+      "Q6_fit": "Finished visible clear lets the household clock out together",
+      "Q7_core": "When neither of you sleeps, you lose the partnership before you notice.",
+      "Q8_headlines": [
+        "Nights turned us into a rota instead of a couple.",
+        "Congestion made us two tired shift workers.",
+        "We stopped talking except to hand off the next watch."
+      ],
+      "headline_picked": "Nights turned us into a rota instead of a couple."
+    },
+    {
+      "angle_ordinal": 6,
+      "candidate_id": "C04",
+      "currency_id": "GUILT_REGRET",
+      "Q1_hollow": "Protection and self-hatred arrive together during the scream",
+      "Q2_villain": "Hospital bulb squeezed through her scream with no proof it helped",
+      "Q3_dream": "Her body goes heavy on your chest; you aren't narrating cruelty",
+      "Q4_currency": "GUILT_REGRET",
+      "Q5_arc": "Wanted to protect \u2192 felt cruel \u2192 twist: guilt aimed at me belonged to a method with no sight \u2192 visible care",
+      "Q6_fit": "Seeing the clear-out relocates blame off the parent",
+      "Q7_core": "Feeling like a monster while helping means the ritual is wrong \u2014 not that you are.",
+      "Q8_headlines": [
+        "Clearing her nose made me feel like I was hurting her.",
+        "I feel so mean every time I finish a clear-out.",
+        "Helping her breathe sounded like I was the problem."
+      ],
+      "headline_picked": "Clearing her nose made me feel like I was hurting her."
+    },
+    {
+      "angle_ordinal": 7,
+      "candidate_id": "C06",
+      "currency_id": "AUTHORITY",
+      "Q1_hollow": "Competence collapses into guessing; ambiguity worse than a hard truth",
+      "Q2_villain": "The sealed guess dispenser \u2014 noise without an answer",
+      "Q3_dream": "The last advice screenshot stays unopened on the lock screen",
+      "Q4_currency": "AUTHORITY",
+      "Q5_arc": "Tried to be capable \u2192 bulb gave noise \u2192 twist: needed sight not slogans \u2192 cup is the answer layer",
+      "Q6_fit": "Clear cup restores knowing",
+      "Q7_core": "You cannot be a capable parent in the dark if the tool never shows what happened.",
+      "Q8_headlines": [
+        "Advice stacked up and none of it showed me the blockage.",
+        "Without seeing anything I stopped trusting my hands.",
+        "The bulb gave noise. Never an answer."
+      ],
+      "headline_picked": "Advice stacked up and none of it showed me the blockage."
+    },
+    {
+      "angle_ordinal": 8,
+      "candidate_id": "C08",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "Q1_hollow": "Tonight's exhaustion projected onto forever; only 'mum' left",
+      "Q2_villain": "Just-cope 'this is just the newborn stage' covering a hospital bulb that never shows a finish",
+      "Q3_dream": "Catching your face in morning glass \u2014 ordinary recognition, not inventory",
+      "Q4_currency": "IDENTITY_SELFHOOD",
+      "Q5_arc": "Used to power down \u2192 2am scans \u2192 thought this was who I became \u2192 twist: unfinished blockage not personality \u2192 visible end",
+      "Q6_fit": "A night that can end visibly is a door back to self",
+      "Q7_core": "Endless ON nights make a temporary crisis feel like your new personality.",
+      "Q8_headlines": [
+        "2am clearing left no version of me by morning.",
+        "I stopped recognizing the person under mum.",
+        "Morning glass showed a stranger I didn't schedule."
+      ],
+      "headline_picked": "2am clearing left no version of me by morning."
+    }
+  ]
+}

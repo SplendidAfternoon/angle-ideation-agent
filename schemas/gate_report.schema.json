@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.angle-ideation-agent/schemas/gate_report.schema.json",
+  "title": "GateReport",
+  "description": "Critic output schema (docs/04 §7, docs/13).",
+  "type": "object",
+  "required": [
+    "run_id",
+    "methodology",
+    "critic",
+    "pack_status_recommendation",
+    "gates",
+    "cold_reread"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "methodology": { "type": "string", "pattern": "^angle-ideation-agent@" },
+    "critic": { "type": "string", "pattern": "^angle-gate-critic@" },
+    "pack_status_recommendation": {
+      "enum": ["Ready for Pre-Lander Agent", "Blocked"]
+    },
+    "gates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["gate_id", "scope", "result", "evidence"],
+        "properties": {
+          "gate_id": { "type": "string" },
+          "scope": { "type": "string" },
+          "result": { "enum": ["PASS", "FAIL"] },
+          "evidence": {
+            "type": "string",
+            "description": "Quote ≤25 words from pack/fuel, or script metric. Empty evidence on judgment gates fails closed."
+          },
+          "notes": { "type": "string" },
+          "fix_hint": {
+            "type": "string",
+            "description": "On FAIL: required revision hint for generator (docs/03 §10)."
+          }
+        }
+      }
+    },
+    "cold_reread": {
+      "type": "object",
+      "required": ["completed", "failures_found"],
+      "properties": {
+        "completed": { "type": "boolean" },
+        "failures_found": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "preflight": {
+      "type": "object",
+      "properties": {
+        "validate_headlines": { "enum": ["PASS", "FAIL", "SKIPPED"] },
+        "validate_pack_preflight": { "enum": ["PASS", "FAIL", "SKIPPED"] }
+      }
+    },
+    "revision_loop": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2
+    }
+  }
+}

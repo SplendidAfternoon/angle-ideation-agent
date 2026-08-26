@@ -1,0 +1,45 @@
+{
+  "run_id": "20260813-bb-l2",
+  "methodology": "angle-ideation-agent@1.1.0",
+  "pack_status_recommendation": "Ready for Pre-Lander Agent",
+  "gates": [
+    { "gate_id": "I-AVATAR", "scope": "pack", "result": "PASS", "evidence": "fuel.avatar.description present", "notes": "" },
+    { "gate_id": "I-PRODUCT", "scope": "pack", "result": "PASS", "evidence": "product_fit.mechanism present", "notes": "" },
+    { "gate_id": "I-PROBLEM", "scope": "pack", "result": "PASS", "evidence": "night congestion / nasal breathing", "notes": "" },
+    { "gate_id": "I-FUEL", "scope": "pack", "result": "PASS", "evidence": "01_angle_fuel.json complete; mechanism not UNKNOWN", "notes": "mechanism labeled DERIVED (proposed in dossier)" },
+    { "gate_id": "I-VOICE", "scope": "pack", "result": "PASS", "evidence": "20 exact_vocabulary items", "notes": "" },
+    { "gate_id": "H1", "scope": "all angles", "result": "PASS", "evidence": "word counts 9-10", "notes": "" },
+    { "gate_id": "H2", "scope": "all angles", "result": "PASS", "evidence": "past consequence framing", "notes": "" },
+    { "gate_id": "H3", "scope": "all angles", "result": "PASS", "evidence": "consequence or villain present", "notes": "" },
+    { "gate_id": "H4", "scope": "all angles", "result": "PASS", "evidence": "no Baby Bubble in headlines", "notes": "" },
+    { "gate_id": "H5", "scope": "all angles", "result": "PASS", "evidence": "no reject openings", "notes": "" },
+    { "gate_id": "H6", "scope": "all angles", "result": "PASS", "evidence": "confessable; no ad-ese ban tokens", "notes": "" },
+    { "gate_id": "A-CURRENCY", "scope": "all angles", "result": "PASS", "evidence": "8 unique currency IDs", "notes": "" },
+    { "gate_id": "A-CORE", "scope": "all angles", "result": "PASS", "evidence": "core-friction+escalation each", "notes": "" },
+    { "gate_id": "A-HOLLOW", "scope": "all angles", "result": "PASS", "evidence": "scene-level losses", "notes": "" },
+    { "gate_id": "A-VILLAIN", "scope": "all angles", "result": "PASS", "evidence": "concrete tools/category/advice", "notes": "" },
+    { "gate_id": "A-DREAM", "scope": "all angles", "result": "PASS", "evidence": "sensory moments", "notes": "angle7 dream slightly softer — flagged for patch review" },
+    { "gate_id": "A-ARC", "scope": "all angles", "result": "PASS", "evidence": "4 beats recoverable", "notes": "" },
+    { "gate_id": "A-FIT", "scope": "all angles", "result": "PASS", "evidence": "mechanism bridges present", "notes": "" },
+    { "gate_id": "A-DOOR", "scope": "all angles", "result": "PASS", "evidence": "product not dream climax", "notes": "" },
+    { "gate_id": "A-BELIEF", "scope": "all angles", "result": "PASS", "evidence": "aligned to fuel beliefs", "notes": "" },
+    { "gate_id": "A-VOICE", "scope": "all angles", "result": "PASS", "evidence": "vocabulary echoes", "notes": "" },
+    { "gate_id": "P-COUNT", "scope": "pack", "result": "PASS", "evidence": "8", "notes": "" },
+    { "gate_id": "P-DISTINCT", "scope": "pack", "result": "PASS", "evidence": "unique currencies; no paraphrase pairs", "notes": "" },
+    { "gate_id": "P-FEELS-REAL", "scope": "pack", "result": "PASS", "evidence": "checklist §5.1", "notes": "" },
+    { "gate_id": "P-CONSISTENCY", "scope": "pack", "result": "PASS", "evidence": "matches fuel failures/mechanism", "notes": "" },
+    { "gate_id": "P-ARTIFACTS", "scope": "pack", "result": "PASS", "evidence": "01-06 present", "notes": "" },
+    { "gate_id": "P-HEADLINES-TABLE", "scope": "pack", "result": "PASS", "evidence": "present", "notes": "" },
+    { "gate_id": "P-SUMMARY", "scope": "pack", "result": "PASS", "evidence": "matches body", "notes": "" },
+    { "gate_id": "P-CURRENCY-RULES", "scope": "pack", "result": "PASS", "evidence": "SAFETY vs TRUST; AGENCY_CONTROL vs PARTNERSHIP disambiguated", "notes": "" }
+  ],
+  "cold_reread": {
+    "completed": true,
+    "failures_found": [],
+    "notes": "Angle 7 Dream and Angle 8 Hollow slightly less cinematic than gold bar — patch if L2 rubric <4.0 on Dream/Hollow averages."
+  },
+  "failure_catalog_spotcheck": {
+    "F01_F12_would_reject": true,
+    "notes": "C11 claim-candidate rejected in scoring; F08/F09 patterns absent from pack."
+  }
+}

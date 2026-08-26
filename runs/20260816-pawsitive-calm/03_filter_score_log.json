@@ -1,0 +1,82 @@
+{
+  "filters_applied": {
+    "F1": "Emotional voltage (visceral confession / diary energy)",
+    "F2": "Problem -> mechanism straight causal line",
+    "F3": "White space / non-saturation against commodity claims"
+  },
+  "candidate_evaluations": [
+    {
+      "candidate_id": "C01",
+      "currency_id": "GUILT_REGRET",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 5,
+      "W": 5,
+      "S": 125,
+      "reason": "Intense, highly taboo emotional confession (regretting the dog); straight line to chemical calming."
+    },
+    {
+      "candidate_id": "C02",
+      "currency_id": "AGENCY_CONTROL",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 4,
+      "W": 5,
+      "S": 100,
+      "reason": "Highly relatable 'grocery store hostage' feeling; strong contrast with slow pheromones."
+    },
+    {
+      "candidate_id": "C03",
+      "currency_id": "RELATIONAL_EQUITY",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 4,
+      "W": 4,
+      "S": 80,
+      "reason": "Very common relationship stressor at 3 AM; clear villain in zombie-inducing CBD."
+    },
+    {
+      "candidate_id": "C04",
+      "currency_id": "SAFETY_SECURITY",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 4,
+      "W": 4,
+      "S": 80,
+      "reason": "Physiological heart racing from hearing cries; good takedown of Thunder Shirts overheating dogs."
+    },
+    {
+      "candidate_id": "C05",
+      "currency_id": "SOCIAL_STATUS",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 4,
+      "M": 4,
+      "W": 4,
+      "S": 64,
+      "reason": "Noise complaint fear is real; attacks the 'dominance' myth effectively."
+    },
+    {
+      "candidate_id": "C06",
+      "currency_id": "TRUST_SAFETY",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 5,
+      "W": 4,
+      "S": 100,
+      "reason": "Excellent takedown of harmful 'cry it out' trainer advice which actively spikes cortisol."
+    }
+  ],
+  "selected_ids": ["C01", "C02", "C03", "C04", "C05", "C06"]
+}

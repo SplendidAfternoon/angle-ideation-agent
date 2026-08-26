@@ -1,0 +1,6 @@
+{
+  "filters_and_scores": [
+    { "candidate_id": "C01", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 5, "M": 5, "W": 5, "S": 125, "selected": true }
+  ],
+  "selected_ids": ["C01"]
+}

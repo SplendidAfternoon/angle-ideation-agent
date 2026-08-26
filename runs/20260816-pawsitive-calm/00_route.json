@@ -1,0 +1,17 @@
+{
+  "scenario": "B",
+  "run_id": "20260816-pawsitive-calm-a-chewable-l-theanine-and-probiotic-treat-that-naturally-lowers-cortisol-auto",
+  "product_name": "Pawsitive Calm - A chewable L-theanine and probiotic treat that naturally lowers cortisol.",
+  "inputs": {
+    "avatar": "Millennial first-time puppy owners experiencing 'puppy blues', sleep deprivation, and intense guilt.",
+    "product": "Pawsitive Calm - A chewable L-theanine and probiotic treat that naturally lowers cortisol.",
+    "problem": "Severe puppy separation anxiety, crying in the crate all night, and destructive chewing when left alone.",
+    "competitors": "Generic CBD drops, pheromone collars, thunder shirts"
+  },
+  "style_controls": {
+    "intensity": 4,
+    "darkness": 0,
+    "formality": 2,
+    "distance": 1
+  }
+}

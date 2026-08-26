@@ -1,0 +1,82 @@
+{
+  "filters_applied": {
+    "F1": "Emotional voltage (visceral confession / diary energy)",
+    "F2": "Problem -> mechanism straight causal line",
+    "F3": "White space / non-saturation against commodity claims"
+  },
+  "candidate_evaluations": [
+    {
+      "candidate_id": "C01",
+      "currency_id": "VANITY_AESTHETICS",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 5,
+      "W": 5,
+      "S": 125,
+      "reason": "Extreme emotional voltage regarding rearview mirror / temple recession; straight line to peptide anchoring."
+    },
+    {
+      "candidate_id": "C02",
+      "currency_id": "RELATIONAL_EQUITY",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 4,
+      "W": 5,
+      "S": 100,
+      "reason": "Visceral intimacy shame when partner finds shed hairs; clear villain in greasy oils."
+    },
+    {
+      "candidate_id": "C03",
+      "currency_id": "AUTONOMY_AGENCY",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 5,
+      "M": 5,
+      "W": 4,
+      "S": 100,
+      "reason": "Classic high-emotion shower drain breakdown scene; attacks useless gummy vitamins directly."
+    },
+    {
+      "candidate_id": "C04",
+      "currency_id": "SOCIAL_STATUS",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 4,
+      "M": 4,
+      "W": 5,
+      "S": 80,
+      "reason": "Powerful return-to-work dread; differentiates strongly against generic Minoxidil dread-shed."
+    },
+    {
+      "candidate_id": "C05",
+      "currency_id": "SAFETY_SECURITY",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 4,
+      "M": 4,
+      "W": 4,
+      "S": 64,
+      "reason": "Medical gaslighting / fear of autoimmune breakdown; strong contrast with passive advice."
+    },
+    {
+      "candidate_id": "C06",
+      "currency_id": "RESOURCE_PRESERVATION",
+      "F1": "PASS",
+      "F2": "PASS",
+      "F3": "PASS",
+      "E": 4,
+      "M": 4,
+      "W": 4,
+      "S": 64,
+      "reason": "Wasted spend on viral oil routines; clear villain in follicle-clogging botanical oils."
+    }
+  ],
+  "selected_ids": ["C01", "C02", "C03", "C04", "C05", "C06"]
+}

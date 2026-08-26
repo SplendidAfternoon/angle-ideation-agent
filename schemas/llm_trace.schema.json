@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.angle-ideation-agent/schemas/llm_trace.schema.json",
+  "title": "LlmTrace",
+  "description": "Per-run LLM ops trace (eval/llm_ops.md). Required for automated pipeline runs.",
+  "type": "object",
+  "required": ["run_id", "methodology", "collapsed_roles", "calls"],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "methodology": { "type": "string", "pattern": "^angle-ideation-agent@" },
+    "collapsed_roles": { "type": "boolean" },
+    "ready_stamped_by": {
+      "enum": [
+        "generator_header_after_triad",
+        "not_ready",
+        "pipeline_default",
+        "critic",
+        "unknown"
+      ]
+    },
+    "calls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "stage", "ended_ok"],
+        "properties": {
+          "role": {
+            "enum": ["generator", "critic", "red_team", "preflight"]
+          },
+          "stage": { "type": "string" },
+          "model": { "type": "string" },
+          "provider": { "type": "string" },
+          "temperature": { "type": "number" },
+          "tokens_in": { "type": "integer", "minimum": 0 },
+          "tokens_out": { "type": "integer", "minimum": 0 },
+          "artifact_written": { "type": "string" },
+          "ended_ok": { "type": "boolean" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

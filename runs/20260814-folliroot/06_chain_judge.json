@@ -1,0 +1,70 @@
+{
+  "run_id": "20260814-folliroot",
+  "methodology": "angle-ideation-agent@1.6.3",
+  "critic": "angle-gate-critic@1.6.3",
+  "result": "PASS",
+  "revision_loop": 0,
+  "telemetry": {
+    "trace_id": "trace-20260814-folliroot-judge-001",
+    "model_version": "gemini-1.5-pro",
+    "temperature": 0.1,
+    "tokens_in": 1200,
+    "tokens_out": 450
+  },
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete advice villain ('just wait it out'); sensory dream anchor (clean ponytail, checking sides); no ad-ese."
+    },
+    {
+      "angle_ordinal": 2,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete tool villain (heavy rosemary oils); sensory dream anchor (resting head against his chest); past-tense headline."
+    },
+    {
+      "angle_ordinal": 3,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete supplement villain (biotin gummies); sensory dream anchor (clear drain with three strands); emotional voltage high."
+    },
+    {
+      "angle_ordinal": 4,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete chemical villain (Minoxidil dread-shed); sensory dream anchor (walking through office glass doors); no product token."
+    },
+    {
+      "angle_ordinal": 5,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete media villain (generic postpartum pamphlets); sensory dream anchor (clean white pillowcase); past-tense headline."
+    },
+    {
+      "angle_ordinal": 6,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "Concrete trend villain (viral TikTok castor oils); sensory dream anchor (single clean dropper on nightstand); no banned words."
+    }
+  ]
+}

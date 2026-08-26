@@ -1,0 +1,105 @@
+{
+  "run_id": "20260814-bb-benchmark",
+  "methodology": "angle-ideation-agent@1.6.1",
+  "critic": "angle-gate-critic@1.6.0",
+  "pack_mean": 4.48,
+  "pack_pass": true,
+  "dimension_mins": {
+    "hollow_specificity": 4.375,
+    "villain_concreteness": 4.875,
+    "dream_render": 4.5,
+    "belief_move": 4.375,
+    "headline_punch": 4.625,
+    "mechanism_honesty": 4.125
+  },
+  "angles": [
+    {
+      "ordinal": 1,
+      "hollow_specificity": 5,
+      "villain_concreteness": 5,
+      "dream_render": 5,
+      "belief_move": 5,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.83,
+      "evidence": "counting rises that never become an answer; hospital bulb wet sound; crib not counting"
+    },
+    {
+      "ordinal": 2,
+      "hollow_specificity": 5,
+      "villain_concreteness": 5,
+      "dream_render": 5,
+      "belief_move": 5,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.83,
+      "evidence": "He offered. Your body said no; mouth-suction tube; pass him the device"
+    },
+    {
+      "ordinal": 3,
+      "hollow_specificity": 4,
+      "villain_concreteness": 5,
+      "dream_render": 4,
+      "belief_move": 5,
+      "headline_punch": 4,
+      "mechanism_honesty": 5,
+      "mean": 4.5,
+      "evidence": "chamber you cannot see, wash, or dry; open pieces on the counter"
+    },
+    {
+      "ordinal": 4,
+      "hollow_specificity": 4,
+      "villain_concreteness": 4,
+      "dream_render": 4,
+      "belief_move": 4,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.17,
+      "evidence": "nothing comes out before the next feed; unused extras stay in the drawer"
+    },
+    {
+      "ordinal": 5,
+      "hollow_specificity": 4,
+      "villain_concreteness": 5,
+      "dream_render": 4,
+      "belief_move": 4,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.33,
+      "evidence": "Conversation shrank to who is on; hospital bulb then mouth tube; same kitchen"
+    },
+    {
+      "ordinal": 6,
+      "hollow_specificity": 5,
+      "villain_concreteness": 5,
+      "dream_render": 5,
+      "belief_move": 4,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.67,
+      "evidence": "Protection and self-hatred in the same minute; bulb through her scream; body heavy on chest"
+    },
+    {
+      "ordinal": 7,
+      "hollow_specificity": 4,
+      "villain_concreteness": 5,
+      "dream_render": 5,
+      "belief_move": 4,
+      "headline_punch": 4,
+      "mechanism_honesty": 4,
+      "mean": 4.33,
+      "evidence": "Competence collapses into guessing; sealed guess dispenser; advice screenshot unopened"
+    },
+    {
+      "ordinal": 8,
+      "hollow_specificity": 4,
+      "villain_concreteness": 5,
+      "dream_render": 4,
+      "belief_move": 4,
+      "headline_punch": 4,
+      "mechanism_honesty": 4,
+      "mean": 4.17,
+      "evidence": "Only mum is left in the glass; newborn-stage cope covering a hospital bulb; morning glass"
+    }
+  ]
+}

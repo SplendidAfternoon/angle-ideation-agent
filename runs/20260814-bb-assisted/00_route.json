@@ -1,0 +1,14 @@
+{
+  "run_id": "20260814-bb-assisted",
+  "methodology": "angle-ideation-agent@1.3.1",
+  "scenario": "B",
+  "thin_inputs": {
+    "avatar_description": "Mothers of newborns struggling with congestion",
+    "product_description": "A nasal aspirator with a clear collection cup",
+    "problem_statement": "Baby nasal congestion prevents sleep and feeding",
+    "competitor_names": ["NoseFrida", "Braun", "bulb syringe"],
+    "product_name": "Baby Bubble"
+  },
+  "decision": "No detailed dossier used for this proof; Scenario B mini-brief → AngleFuel as PLAUSIBLE_INFERENCE; assist_notes from docs/10 required on selected candidates.",
+  "purpose": "Prove skill + docs/10 assist_notes wiring under Scenario B"
+}

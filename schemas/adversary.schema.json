@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.angle-ideation-agent/schemas/adversary.schema.json",
+  "title": "AdversaryReport",
+  "description": "Red-team output (docs/13). Hunts failures only. Never stamps Ready.",
+  "type": "object",
+  "required": [
+    "run_id",
+    "methodology",
+    "adversary",
+    "material_hits",
+    "nits",
+    "recommendation"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "methodology": { "type": "string", "pattern": "^angle-ideation-agent@" },
+    "adversary": { "type": "string", "pattern": "^angle-red-team@" },
+    "material_hits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["catalog_id", "scope", "quote", "why"],
+        "properties": {
+          "catalog_id": { "type": "string" },
+          "scope": { "type": "string" },
+          "quote": { "type": "string" },
+          "why": { "type": "string" },
+          "gate_id": { "type": "string" }
+        }
+      }
+    },
+    "nits": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "feature_sheet_if_product_removed": {
+      "enum": ["YES_FEATURE_SHEET", "STILL_A_STORY", "MIXED"]
+    },
+    "gold_headline_paraphrase_count": { "type": "integer", "minimum": 0 },
+    "recommendation": {
+      "enum": ["NO_MATERIAL_HITS", "BLOCK"]
+    },
+    "disagree_with_critic": { "type": "boolean" }
+  }
+}

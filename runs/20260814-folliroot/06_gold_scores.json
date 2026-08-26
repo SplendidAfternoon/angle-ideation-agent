@@ -1,0 +1,83 @@
+{
+  "run_id": "20260814-folliroot",
+  "methodology": "angle-ideation-agent@1.6.3",
+  "critic": "angle-gate-critic@1.6.3",
+  "pack_mean": 4.61,
+  "pack_pass": true,
+  "dimension_mins": {
+    "hollow_specificity": 4,
+    "villain_concreteness": 4,
+    "dream_render": 4,
+    "belief_move": 4,
+    "headline_punch": 4,
+    "mechanism_honesty": 4
+  },
+  "angles": [
+    {
+      "ordinal": 1,
+      "hollow_specificity": 5,
+      "villain_concreteness": 5,
+      "dream_render": 5,
+      "belief_move": 5,
+      "headline_punch": 5,
+      "mechanism_honesty": 5,
+      "mean": 5.0,
+      "evidence": "Outstanding mirror scene; clean advice villain; perfect past-tense headline."
+    },
+    {
+      "ordinal": 2,
+      "hollow_specificity": 5,
+      "villain_concreteness": 4,
+      "dream_render": 5,
+      "belief_move": 4,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.5,
+      "evidence": "High vulnerability around partner intimacy; sensory dream anchor."
+    },
+    {
+      "ordinal": 3,
+      "hollow_specificity": 5,
+      "villain_concreteness": 5,
+      "dream_render": 5,
+      "belief_move": 5,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.83,
+      "evidence": "Visceral shower drain imagery; attacks biotin gummies cleanly."
+    },
+    {
+      "ordinal": 4,
+      "hollow_specificity": 4,
+      "villain_concreteness": 4,
+      "dream_render": 4,
+      "belief_move": 4,
+      "headline_punch": 4,
+      "mechanism_honesty": 5,
+      "mean": 4.17,
+      "evidence": "Strong return-to-work dread; clean nursing-safe contrast."
+    },
+    {
+      "ordinal": 5,
+      "hollow_specificity": 5,
+      "villain_concreteness": 4,
+      "dream_render": 4,
+      "belief_move": 4,
+      "headline_punch": 5,
+      "mechanism_honesty": 5,
+      "mean": 4.5,
+      "evidence": "Relatable health anxiety around pillowcase shedding; clear medical contrast."
+    },
+    {
+      "ordinal": 6,
+      "hollow_specificity": 5,
+      "villain_concreteness": 5,
+      "dream_render": 4,
+      "belief_move": 5,
+      "headline_punch": 5,
+      "mechanism_honesty": 4,
+      "mean": 4.67,
+      "evidence": "Effective contrast with TikTok viral routine clutter; strong headline."
+    }
+  ]
+}

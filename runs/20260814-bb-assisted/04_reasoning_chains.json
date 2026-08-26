@@ -1,0 +1,102 @@
+{
+  "run_id": "20260814-bb-assisted",
+  "methodology": "angle-ideation-agent@1.3.1",
+  "chains": [
+    {
+      "candidate_id": "A01",
+      "assist_notes": { "bias_id": "BIAS_ATTENTIONAL", "attach_to": "Hollow" },
+      "Q1_specific_loss": "Trust in her own night judgment — every sound restarts the scan",
+      "Q2_villain": "Blind bulb / opaque clear that never answers",
+      "Q3_dream": "Standing by the crib without counting breaths",
+      "Q4_currency": "SAFETY_SECURITY",
+      "Q5_beats": "Careful mum → night checks + bulb → twist: needed sight not more force → clear cup ends the math",
+      "Q6_product_fit": "Clear collection cup shows mucus leaving so panic shortens",
+      "Q7_belief": "Prove: can't-breathe scan is about blockage feedback, not drama",
+      "chosen_headline": "I checked his chest all night and still knew nothing."
+    },
+    {
+      "candidate_id": "A02",
+      "assist_notes": { "bias_id": "BIAS_DISGUST", "attach_to": "Villain" },
+      "Q1_specific_loss": "Belief she was helping safely",
+      "Q2_villain": "Sealed hospital bulb that can hide mould",
+      "Q3_dream": "Parts she can see and wash — no flash of hidden growth",
+      "Q4_currency": "TRUST_SAFETY",
+      "Q5_beats": "Trusted hospital tool → nightly use → smell/mould fear → only openable clear parts acceptable",
+      "Q6_product_fit": "Clear cup, cleanable — nothing sealed to betray",
+      "Q7_belief": "Shift: default safe tool can be the contamination vector",
+      "chosen_headline": "The hospital bulb hid what I would never put in her nose."
+    },
+    {
+      "candidate_id": "A05",
+      "assist_notes": { "bias_id": "BIAS_DISGUST", "attach_to": "Villain" },
+      "Q1_specific_loss": "Shared caregiving — cannot hand off",
+      "Q2_villain": "Mouth-suction tube",
+      "Q3_dream": "Passing the device without a disgust speech",
+      "Q4_currency": "AGENCY_PARTNERSHIP",
+      "Q5_beats": "Partner offers → she refuses mouth tube → tool blocked teamwork → mouth-free clear restores handoff",
+      "Q6_product_fit": "No mouth contact aspirator with clear cup",
+      "Q7_belief": "Shift: refusal was the tool, not his competence",
+      "chosen_headline": "Mouth suction made me the only parent on nights."
+    },
+    {
+      "candidate_id": "A03",
+      "assist_notes": { "bias_id": "DEBATE_NON_ID_BLAME", "attach_to": "Twist" },
+      "Q1_specific_loss": "Moral self — feels like a monster while helping",
+      "Q2_villain": "Blind mean-feeling ritual",
+      "Q3_dream": "A clear-out that feels like care",
+      "Q4_currency": "GUILT_REGRET",
+      "Q5_beats": "Wants to protect → feels mean → twist: guilt aimed at her not tool → visible clear",
+      "Q6_product_fit": "See the clear-out; help looks like help",
+      "Q7_belief": "Shift: relocate blame off identity onto ritual/tool",
+      "chosen_headline": "Helping her breathe made me feel like the villain."
+    },
+    {
+      "candidate_id": "A04",
+      "assist_notes": { "bias_id": "BIAS_SUNK_COST", "attach_to": "Action" },
+      "Q1_specific_loss": "Agency — effort without results",
+      "Q2_villain": "Opaque weak category tools",
+      "Q3_dream": "Seeing something actually in the cup",
+      "Q4_currency": "AGENCY_CONTROL",
+      "Q5_beats": "Tried bulb/saline/mouth → empty results → twist: feedback missing → clear cup",
+      "Q6_product_fit": "Clear cup makes results visible — stop blind trying",
+      "Q7_belief": "Shift: more effort on blind tools ≠ progress",
+      "chosen_headline": "I kept trying blind tools that showed me nothing."
+    },
+    {
+      "candidate_id": "A07",
+      "assist_notes": { "bias_id": "BIAS_AMBIGUITY_AVERSION", "attach_to": "Hollow" },
+      "Q1_specific_loss": "Knowing — cannot tell if clear worked",
+      "Q2_villain": "Guess dispenser opacity",
+      "Q3_dream": "Gunk visible in the cup — job done",
+      "Q4_currency": "AUTHORITY",
+      "Q5_beats": "Wants competence → noise without proof → twist: need sight → clear cup",
+      "Q6_product_fit": "Clear collection cup restores knowing",
+      "Q7_belief": "Shift: competence requires visible feedback",
+      "chosen_headline": "Without seeing anything I stopped trusting my hands."
+    },
+    {
+      "candidate_id": "A06",
+      "assist_notes": { "bias_id": "BIAS_LOSS_AVERSION", "attach_to": "Hollow" },
+      "Q1_specific_loss": "Partnership eroded into night logistics",
+      "Q2_villain": "Tools that never finish the blockage for either adult",
+      "Q3_dream": "Shared quiet after a clear that worked",
+      "Q4_currency": "RELATIONAL_EQUITY",
+      "Q5_beats": "Team → opposing shifts → twist: wrong enemy was the nose/tool → visible clear",
+      "Q6_product_fit": "Clear cup ends shared wake cycle",
+      "Q7_belief": "Prove: congestion taxes the couple not just the baby",
+      "chosen_headline": "Congestion turned us into two tired shift workers."
+    },
+    {
+      "candidate_id": "A08",
+      "assist_notes": { "bias_id": "BIAS_PROJECTION", "attach_to": "Hollow" },
+      "Q1_specific_loss": "Self under endless ON nights feels permanent",
+      "Q2_villain": "Unfinished clear-out loop + cope advice",
+      "Q3_dream": "Ordinary morning recognition in the mirror glass",
+      "Q4_currency": "IDENTITY_SELFHOOD",
+      "Q5_beats": "Had a self → always ON nights → twist: not new personality, unfinished blockage → clear ends episode",
+      "Q6_product_fit": "Visible clear shortens the always-ON night",
+      "Q7_belief": "Prove: this erased self is not permanent identity",
+      "chosen_headline": "Two a.m. clear-outs erased the person under mum."
+    }
+  ]
+}

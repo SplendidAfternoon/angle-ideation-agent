@@ -1,0 +1,8 @@
+{
+  "filters_and_scores": [
+    { "candidate_id": "C01", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 5, "M": 4, "W": 5, "S": 100, "selected": true },
+    { "candidate_id": "C02", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 4, "M": 4, "W": 4, "S": 64, "selected": true },
+    { "candidate_id": "C03", "F1": "PASS", "F2": "PASS", "F3": "PASS", "E": 4, "M": 5, "W": 4, "S": 80, "selected": true }
+  ],
+  "selected_ids": ["C01", "C02", "C03"]
+}

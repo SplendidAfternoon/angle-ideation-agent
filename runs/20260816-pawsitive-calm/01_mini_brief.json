@@ -1,0 +1,118 @@
+{
+  "avatar": {
+    "name": "The Puppy Blues Parent",
+    "description": "A millennial first-time puppy owner who is chronically sleep-deprived, overwhelmed by crate-crying, and silently harboring intense guilt for regretting their decision to get a dog."
+  },
+  "pain_points": [
+    {
+      "cluster": "Nighttime Crate Panic",
+      "description": "Lying awake at 3 AM listening to the puppy scream and dig at the crate, feeling their own heart race, torn between comforting the dog and ruining their training.",
+      "examples": [
+        "I just lie there staring at the ceiling while he screams, feeling like a complete failure.",
+        "I haven't slept more than 3 hours in a row since we brought her home."
+      ]
+    },
+    {
+      "cluster": "The Departure Dread",
+      "description": "The sickening anxiety of putting on shoes and watching the puppy start to panic, knowing they will return to destroyed baseboards and pee on the floor.",
+      "examples": [
+        "I literally tiptoe out the front door so he doesn't hear my keys jingle.",
+        "I can't even go to the grocery store without checking the puppy cam every five minutes."
+      ]
+    },
+    {
+      "cluster": "The Secret Regret",
+      "description": "The deep, shameful guilt of looking at this puppy they wanted so badly and wishing they could just give it back and have their old, peaceful life return.",
+      "examples": [
+        "I love him, but I miss my old life. I feel like a monster for thinking that.",
+        "I cry in the bathroom because I feel so overwhelmed and trapped."
+      ]
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Generic CBD drops",
+      "why_it_failed": "Makes the puppy lethargic and woozy rather than calm, and dosing is wildly inconsistent."
+    },
+    {
+      "attempt": "Thunder shirts and compression vests",
+      "why_it_failed": "The puppy just chews on the velcro and overheats; it doesn't stop the internal panic response."
+    },
+    {
+      "attempt": "Pheromone diffusers and collars",
+      "why_it_failed": "Takes weeks to build up in the system, if it works at all, providing zero immediate relief for tonight's crate training."
+    },
+    {
+      "attempt": "The 'Cry It Out' advice",
+      "why_it_failed": "Traumatizes the dog and spikes the owner's cortisol, leading to worse separation anxiety the next day."
+    }
+  ],
+  "emotional_effects": [
+    "Chronic sleep deprivation",
+    "Spiking cortisol and racing heart at the sound of crying",
+    "Relationship tension with partner over who handles the dog",
+    "Crushing guilt and feelings of inadequacy",
+    "Feeling trapped in their own home"
+  ],
+  "exact_vocabulary": [
+    "screaming in the crate",
+    "puppy blues",
+    "feeling like a failure",
+    "watching the puppy cam",
+    "ruining my life",
+    "sleep deprived zombie",
+    "dreading leaving the house"
+  ],
+  "future_fears": [
+    "Raising an aggressive, un-trainable dog that can never be left alone",
+    "Having to rehome the dog and face the judgment of friends and family",
+    "Never sleeping through the night again"
+  ],
+  "product_fit": {
+    "mechanism": "A chewable treat combining L-theanine (an amino acid that promotes alpha brain waves) and gut-brain axis probiotics to biologically lower systemic cortisol without sedatives.",
+    "how_it_resolves": "Biologically shifts the puppy's nervous system out of 'fight or flight' panic into relaxed alertness within 30 minutes, allowing them to self-soothe in the crate."
+  },
+  "competitors": [
+    {
+      "name": "Generic CBD Drops",
+      "loved": "Seems natural",
+      "hated": "Turns the puppy into a zombie; hard to dose properly"
+    },
+    {
+      "name": "Thunder Shirts",
+      "loved": "No ingestion required",
+      "hated": "Puppy chews on it; doesn't stop vocal crying"
+    },
+    {
+      "name": "Pheromone Collars",
+      "loved": "Set and forget",
+      "hated": "Smells weird; takes way too long to show any effect"
+    }
+  ],
+  "psychosocial_currencies_candidates": [
+    {
+      "currency_id": "GUILT_REGRET",
+      "why_it_applies": "The intense shame of regretting getting the puppy and feeling like a bad person."
+    },
+    {
+      "currency_id": "AUTONOMY_AGENCY",
+      "why_it_applies": "Feeling trapped in the house, unable to run errands or leave for work without a panic attack."
+    },
+    {
+      "currency_id": "RELATIONAL_EQUITY",
+      "why_it_applies": "The puppy's crying causing massive fights with a partner at 3 AM over whose turn it is."
+    },
+    {
+      "currency_id": "SAFETY_SECURITY",
+      "why_it_applies": "The physiological spike in the owner's own heart rate when the puppy starts screaming."
+    },
+    {
+      "currency_id": "SOCIAL_STATUS",
+      "why_it_applies": "The fear of neighbors complaining about the noise or judging them for having an out-of-control dog."
+    },
+    {
+      "currency_id": "TRUST_SAFETY",
+      "why_it_applies": "The betrayal of 'expert' advice telling them to just let the puppy cry it out, which only makes it worse."
+    }
+  ]
+}

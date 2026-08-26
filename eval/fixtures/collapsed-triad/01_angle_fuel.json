@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "scenario": "B",
+    "methodology": "angle-ideation-agent@1.7.0",
+    "product_name": "StubBrand"
+  },
+  "avatar": {
+    "name": "Generic Busy Pro",
+    "description": "A professional who wants better results with less effort."
+  },
+  "pain_points": [
+    { "cluster": "Time", "description": "Not enough hours", "examples": ["I have no time"] }
+  ],
+  "failed_attempts": [
+    { "attempt": "Willpower", "why_it_failed": "Did not stick" }
+  ],
+  "emotional_effects": ["stress"],
+  "exact_vocabulary": ["no time", "just works", "game changer"],
+  "future_fears": ["falling behind"],
+  "product_fit": {
+    "mechanism": "A widget that just works",
+    "how_it_resolves": "Better results"
+  },
+  "competitors": [],
+  "psychosocial_currencies_candidates": [
+    { "currency_id": "SAFETY_SECURITY", "why_it_applies": "generic" }
+  ],
+  "beliefs": {
+    "held": ["I must try harder"],
+    "ready_to_shift": ["A widget solves it"]
+  }
+}

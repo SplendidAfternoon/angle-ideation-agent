@@ -1,0 +1,108 @@
+{
+  "run_id": "20260814-strideform-l3",
+  "methodology": "angle-ideation-agent@1.4.0",
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "working_title": "Calendar of lost runs",
+      "currency_id": "FUTURE_SECURITY",
+      "belief_move": "shift",
+      "belief_statement": "This isn't a temporary sore week — waiting schedules a smaller life",
+      "pain_refs": ["pain_points[2]", "future_fears"],
+      "villain_seed": "Wait-and-stretch-only advice while load pattern stays broken",
+      "mechanism_bridge": "Structured arch changes daily load geometry now",
+      "confession_seed": "I started planning a life without morning runs",
+      "assist_notes": { "bias_id": "BIAS_PRESENT_BIAS", "attach_to": "Twist" }
+    },
+    {
+      "candidate_id": "C02",
+      "working_title": "Bench parent",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "belief_move": "prove",
+      "belief_statement": "I'm becoming someone who sits out — and that isn't who I am",
+      "pain_refs": ["pain_points[1]"],
+      "villain_seed": "Hobble-as-new-normal stories",
+      "mechanism_bridge": "Stable landing returns play capacity",
+      "confession_seed": "I became the bench parent on purpose"
+    },
+    {
+      "candidate_id": "C03",
+      "working_title": "Soft lie shelf",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "shift",
+      "belief_statement": "Buying softer pads is not a plan",
+      "pain_refs": ["pain_points[3]"],
+      "villain_seed": "Gel/foam category that pancakes",
+      "mechanism_bridge": "Contour + structure vs compressible foam",
+      "confession_seed": "I kept buying the same soft lie",
+      "assist_notes": { "bias_id": "BIAS_SUNK_COST", "attach_to": "Action" }
+    },
+    {
+      "candidate_id": "C04",
+      "working_title": "Snapped at playtime",
+      "currency_id": "GUILT_REGRET",
+      "belief_move": "shift",
+      "belief_statement": "The guilt belongs to a bad landing pattern, not to being a bad parent",
+      "pain_refs": ["pain_points[1]", "emotional_effects"],
+      "villain_seed": "First-step stab that makes play feel like cruelty to yourself",
+      "mechanism_bridge": "Less hostile mornings → less guilt spill",
+      "confession_seed": "I snapped because my heel owned the morning"
+    },
+    {
+      "candidate_id": "C05",
+      "working_title": "Office limp",
+      "currency_id": "SOCIAL_STATUS",
+      "belief_move": "prove",
+      "belief_statement": "People notice the limp even when I pretend they don't",
+      "pain_refs": ["emotional_effects"],
+      "villain_seed": "Fashion sneakers with zero support sold as 'fine for work'",
+      "mechanism_bridge": "Inserts into daily shoes hide the hobble",
+      "confession_seed": "I timed hallway walks so nobody saw me limp"
+    },
+    {
+      "candidate_id": "C06",
+      "working_title": "Pad betrayal",
+      "currency_id": "TRUST_SAFETY",
+      "belief_move": "shift",
+      "belief_statement": "The soft pad I trusted was the thing that failed me",
+      "pain_refs": ["failed_attempts[0]"],
+      "villain_seed": "Drugstore gel that flattens into a hard nothing",
+      "mechanism_bridge": "Non-collapsing arch contour",
+      "confession_seed": "The gel went flat and took my trust with it"
+    },
+    {
+      "candidate_id": "C07",
+      "working_title": "Partner walks",
+      "currency_id": "RELATIONAL_EQUITY",
+      "belief_move": "prove",
+      "belief_statement": "Uneven walking chores are eroding us",
+      "pain_refs": ["emotional_effects"],
+      "villain_seed": "Unfinished heel mornings that dump errands on one partner",
+      "mechanism_bridge": "Shareable mornings when both can walk",
+      "confession_seed": "They took another dog walk because I couldn't"
+    },
+    {
+      "candidate_id": "C08",
+      "working_title": "Advice fog",
+      "currency_id": "AUTHORITY",
+      "belief_move": "shift",
+      "belief_statement": "I don't need another stretch thread — I need a load answer",
+      "pain_refs": ["pain_points[4]"],
+      "villain_seed": "Just-stretch / just-rest advice with no underfoot structure",
+      "mechanism_bridge": "Clear mechanism: redistribute plantar pressure",
+      "confession_seed": "Everyone had a stretch; nobody fixed the landing",
+      "assist_notes": { "bias_id": "BIAS_AUTHORITY", "attach_to": "Villain" }
+    },
+    {
+      "candidate_id": "C09",
+      "working_title": "Feature sheet reject",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "prove",
+      "belief_statement": "Dual-density foam is amazing",
+      "pain_refs": [],
+      "villain_seed": "n/a",
+      "mechanism_bridge": "marketing",
+      "confession_seed": "Buy our insole"
+    }
+  ]
+}

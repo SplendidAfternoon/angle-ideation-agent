@@ -1,0 +1,94 @@
+{
+  "run_id": "20260813-hairloss-l3",
+  "methodology": "angle-ideation-agent@1.1.1",
+  "chains": [
+    {
+      "candidate_id": "H03",
+      "Q1_specific_loss": "Future face at a fixed date — wedding/reunion photos he can't escape",
+      "Q2_villain": "Wait-and-see advice while miniaturisation continues",
+      "Q3_dream": "Standing in guest photos without hunting for soft lighting",
+      "Q4_currency": "FUTURE_SECURITY",
+      "Q5_beats": "Setup: thinks he has time. Action: delays. Twist: calendar is the enemy not vanity. Verdict: start mechanism now.",
+      "Q6_product_fit": "Measured daily DHT-oriented serum — action with a why before the milestone",
+      "Q7_belief": "Shift: postponing is an active choice against density",
+      "chosen_headline": "I dreaded guest photos more than the wedding speeches."
+    },
+    {
+      "candidate_id": "H01",
+      "Q1_specific_loss": "Self in the mirror/work photos no longer matches identity",
+      "Q2_villain": "'Maturing hairline' cope that delayed real mechanism talk",
+      "Q3_dream": "Catching his reflection without the flinch",
+      "Q4_currency": "IDENTITY_SELFHOOD",
+      "Q5_beats": "Setup: recognised himself. Action: excuses + soft lighting. Twist: not aging personality — follicle story. Verdict: routine aimed at DHT.",
+      "Q6_product_fit": "Leave-in measured serum targeting follicle DHT driver",
+      "Q7_belief": "Prove: identity loss is real and addressable at mechanism level",
+      "chosen_headline": "Work photos stopped looking like me last winter."
+    },
+    {
+      "candidate_id": "H04",
+      "Q1_specific_loss": "Agency — shelf of failed hopes",
+      "Q2_villain": "Oil/gummy category with no honest follicle-DHT mechanism",
+      "Q3_dream": "One bottle, one dropper ritual, no grease theater",
+      "Q4_currency": "AGENCY_CONTROL",
+      "Q5_beats": "Setup: solution shopping. Action: rosemary, gummies, foam mess. Twist: same empty category. Verdict: mechanism over folklore.",
+      "Q6_product_fit": "Alcohol-free dropper serum with DHT-at-follicle framing",
+      "Q7_belief": "Shift: another natural oil won't break the loop",
+      "chosen_headline": "Rosemary, gummies, foam — same empty shelf again."
+    },
+    {
+      "candidate_id": "H06",
+      "Q1_specific_loss": "Trust — believed 'natural' meant effective",
+      "Q2_villain": "Greasy rosemary narrative sold as science",
+      "Q3_dream": "Applying something that doesn't smell like a kitchen experiment",
+      "Q4_currency": "TRUST_SAFETY",
+      "Q5_beats": "Setup: trusted natural. Action: oily rituals. Twist: natural ≠ mechanism. Verdict: honest topical with a clear why.",
+      "Q6_product_fit": "Mechanism-honest serum without folklore cosplay",
+      "Q7_belief": "Shift: betrayal by wellness theater",
+      "chosen_headline": "The greasy rosemary phase made me feel played."
+    },
+    {
+      "candidate_id": "H05",
+      "Q1_specific_loss": "Regret — nights researching instead of starting",
+      "Q2_villain": "Forum paralysis and 'next month' delay",
+      "Q3_dream": "Closing the laptop and doing a two-minute dose instead",
+      "Q4_currency": "GUILT_REGRET",
+      "Q5_beats": "Setup: private shame. Action: 1 a.m. threads. Twist: research became avoidance. Verdict: measured daily action.",
+      "Q6_product_fit": "Simple dropper ritual ends avoidance-as-research",
+      "Q7_belief": "Shift: guilt belongs to delay, fixable now",
+      "chosen_headline": "I researched at 1 a.m. instead of starting."
+    },
+    {
+      "candidate_id": "H02",
+      "Q1_specific_loss": "Public competence — caps as costume",
+      "Q2_villain": "Overhead lights and flash that expose the wider part",
+      "Q3_dream": "Walking into a bright office without the cap calculation",
+      "Q4_currency": "SOCIAL_STATUS",
+      "Q5_beats": "Setup: cared about looking sharp. Action: cap lifestyle. Twist: managing optics not root cause. Verdict: follicle-targeted routine.",
+      "Q6_product_fit": "Daily serum as the anti-optics-hack",
+      "Q7_belief": "Prove: status anxiety is about visibility of thinning",
+      "chosen_headline": "I built a whole personality around wearing caps."
+    },
+    {
+      "candidate_id": "H07",
+      "Q1_specific_loss": "Authority — cannot know which protocol is real",
+      "Q2_villain": "Anonymous protocol wars with contradictory certainty",
+      "Q3_dream": "One clear first step he can explain in a sentence",
+      "Q4_currency": "AUTHORITY",
+      "Q5_beats": "Setup: wants expertise. Action: forum fog. Twist: more tabs ≠ knowing. Verdict: one mechanism-first routine.",
+      "Q6_product_fit": "Measured DHT-oriented leave-in as a coherent first step",
+      "Q7_belief": "Shift: clarity beats guru stack",
+      "chosen_headline": "Forum certainty left me less sure than before."
+    },
+    {
+      "candidate_id": "H08",
+      "Q1_specific_loss": "Safety anxiety — fear that 'serious' help means systemic risk",
+      "Q2_villain": "Narrative that oral meds are the only serious path (all-or-nothing)",
+      "Q3_dream": "A bathroom ritual that feels serious without the side-effect spiral",
+      "Q4_currency": "SAFETY_SECURITY",
+      "Q5_beats": "Setup: wants help. Action: side-effect rabbit hole. Twist: binary framing blocked action. Verdict: topical measured option with clear framing.",
+      "Q6_product_fit": "Topical alcohol-free serum — different frame than oral-or-nothing",
+      "Q7_belief": "Prove: safety fear is legitimate; binary narrative was the trap",
+      "chosen_headline": "The side-effect rabbit hole kept me untreated."
+    }
+  ]
+}

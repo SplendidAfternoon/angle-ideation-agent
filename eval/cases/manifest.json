@@ -1,0 +1,42 @@
+{
+  "version": "1.9.0",
+  "cases": [
+    {
+      "id": "bb-benchmark-ready",
+      "run_dir": "runs/20260814-bb-benchmark",
+      "product": "Baby Bubble",
+      "expect": "PASS",
+      "kind": "live_run"
+    },
+    {
+      "id": "strideform-transfer",
+      "run_dir": "runs/20260814-strideform-l3",
+      "product": "StrideForm",
+      "expect": "PASS",
+      "kind": "transfer_run"
+    },
+    {
+      "id": "negcontrol-must-fail",
+      "run_dir": "runs/20260814-negcontrol-feature",
+      "product": "AirPurge",
+      "expect": "FAIL",
+      "kind": "negative_control"
+    },
+    {
+      "id": "collapsed-triad-must-fail",
+      "run_dir": "eval/fixtures/collapsed-triad",
+      "product": "StubBrand",
+      "expect": "FAIL",
+      "kind": "ops_stub",
+      "must_flag": ["OPS-STUB-GATES", "OPS-STUB-GOLD", "OPS-STUB-ADVERSARY"]
+    },
+    {
+      "id": "vsl-doctrine-must-fail",
+      "run_dir": "eval/fixtures/vsl-doctrine-fail",
+      "product": "ClearCup",
+      "expect": "FAIL",
+      "kind": "vsl_doctrine",
+      "must_flag": ["F16-ARRIVAL", "F17-MECH-ACTION", "F18-HOOK-CLUSTER"]
+    }
+  ]
+}

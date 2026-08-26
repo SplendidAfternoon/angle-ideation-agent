@@ -1,0 +1,68 @@
+[
+  {
+    "candidate_id": "C01",
+    "working_title": "The Secret Regret Confession",
+    "currency_id": "GUILT_REGRET",
+    "belief_move": "shift",
+    "belief_statement": "Regretting your puppy isn't a failure of love; it's a symptom of untreated canine cortisol that can be lowered naturally.",
+    "pain_refs": ["pain_points[2]"],
+    "villain_seed": "The toxic 'puppy parenthood is magical' social media myth that makes struggling owners feel like monsters.",
+    "mechanism_bridge": "L-theanine and probiotics shift the puppy's nervous system into relaxed alpha waves without sedation.",
+    "confession_seed": "Sitting on the bathroom floor crying, wishing I could just give the puppy back and get my old life back."
+  },
+  {
+    "candidate_id": "C02",
+    "working_title": "The Grocery Store Hostage",
+    "currency_id": "AGENCY_CONTROL",
+    "belief_move": "shift",
+    "belief_statement": "You don't have to be held hostage by your puppy's separation anxiety when you address their gut-brain axis.",
+    "pain_refs": ["pain_points[1]"],
+    "villain_seed": "Useless pheromone collars that take weeks to work, leaving you trapped in your house today.",
+    "mechanism_bridge": "Bio-active L-theanine delivers immediate cortisol reduction within 30 minutes so you can actually leave the house.",
+    "confession_seed": "Tiptoeing out the front door and checking the puppy cam every five minutes while rushing through the grocery store."
+  },
+  {
+    "candidate_id": "C03",
+    "working_title": "The 3 AM Resentment Fight",
+    "currency_id": "RELATIONAL_EQUITY",
+    "belief_move": "shift",
+    "belief_statement": "Your puppy's crate screaming doesn't have to destroy your marriage; it's a biological panic response that can be soothed.",
+    "pain_refs": ["emotional_effects[2]", "pain_points[0]"],
+    "villain_seed": "Generic CBD drops that drug the puppy into a woozy stupor instead of actually calming their nervous system.",
+    "mechanism_bridge": "Non-sedating amino acids promote self-soothing, letting both the puppy and the couple sleep through the night.",
+    "confession_seed": "Glaring at my partner at 3 AM while the puppy screams, furiously whispering about whose turn it is to get up."
+  },
+  {
+    "candidate_id": "C04",
+    "working_title": "The Heart-Racing Crate Panic",
+    "currency_id": "SAFETY_SECURITY",
+    "belief_move": "shift",
+    "belief_statement": "You don't have to endure physiological panic every time your puppy cries; you can chemically lower their stress so you both can breathe.",
+    "pain_refs": ["pain_points[0]", "emotional_effects[1]"],
+    "villain_seed": "Thunder shirts that just make the puppy overheat and chew on velcro while continuing to vocalize their panic.",
+    "mechanism_bridge": "Targeted probiotics support the gut-brain axis to permanently lower baseline anxiety.",
+    "confession_seed": "Lying awake in the dark, feeling my own heart race in pure panic every time the puppy started digging at the crate."
+  },
+  {
+    "candidate_id": "C05",
+    "working_title": "The Judgment of the Neighbors",
+    "currency_id": "SOCIAL_STATUS",
+    "belief_move": "shift",
+    "belief_statement": "A screaming puppy doesn't mean you are an incompetent owner; it means the dog is in physiological 'fight or flight' that requires amino acid support.",
+    "pain_refs": ["future_fears[1]"],
+    "villain_seed": "Judgmental friends and family who tell you that you just aren't being 'dominant' enough with the dog.",
+    "mechanism_bridge": "Cortisol-lowering treats give the puppy the biological capacity to learn self-soothing without force.",
+    "confession_seed": "Waiting for a noise complaint note to be slipped under my door because my puppy screams like they are being tortured."
+  },
+  {
+    "candidate_id": "C06",
+    "working_title": "The 'Cry It Out' Betrayal",
+    "currency_id": "TRUST_SAFETY",
+    "belief_move": "shift",
+    "belief_statement": "Forcing a puppy to cry it out traumatizes them; you must lower their cortisol first so they can feel safe.",
+    "pain_refs": ["failed_attempts[3]"],
+    "villain_seed": "Old-school dog trainers who tell you to ignore the screaming, which only spikes the dog's cortisol higher.",
+    "mechanism_bridge": "Natural L-theanine creates a sense of relaxed alertness, replacing crate trauma with feelings of safety.",
+    "confession_seed": "Following the trainer's advice to ignore the crying, only to find the puppy hyperventilating and covered in drool the next morning."
+  }
+]

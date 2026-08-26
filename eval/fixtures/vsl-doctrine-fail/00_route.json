@@ -1,0 +1,11 @@
+{
+  "run_id": "eval-vsl-doctrine-fail",
+  "methodology": "angle-ideation-agent@1.9.0",
+  "scenario": "B",
+  "decision": "Eval fixture — looks emotional, violates F16–F18. Must FAIL harness.",
+  "inputs_summary": {
+    "avatar_description": "Night-watch parent of a congested newborn",
+    "product_description": "ClearCup visible-collection nasal aspirator",
+    "problem_statement": "Cannot tell if the blockage left"
+  }
+}

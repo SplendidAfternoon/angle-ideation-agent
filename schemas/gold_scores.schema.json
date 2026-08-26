@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.angle-ideation-agent/schemas/gold_scores.schema.json",
+  "title": "GoldClassScores",
+  "description": "L2 rubric required on every Ready (docs/05 §3.4). Specification checklist is binary; this is the extra half.",
+  "type": "object",
+  "required": [
+    "run_id",
+    "methodology",
+    "critic",
+    "pack_mean",
+    "pack_pass",
+    "angles"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "methodology": { "type": "string", "pattern": "^angle-ideation-agent@" },
+    "critic": { "type": "string", "pattern": "^angle-gate-critic@" },
+    "pack_mean": { "type": "number", "minimum": 1, "maximum": 5 },
+    "pack_pass": { "type": "boolean" },
+    "dimension_mins": {
+      "type": "object",
+      "additionalProperties": { "type": "number" }
+    },
+    "angles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "ordinal",
+          "hollow_specificity",
+          "villain_concreteness",
+          "dream_render",
+          "belief_move",
+          "headline_punch",
+          "mechanism_honesty",
+          "mean",
+          "evidence"
+        ],
+        "properties": {
+          "ordinal": { "type": "integer", "minimum": 1 },
+          "hollow_specificity": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "villain_concreteness": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "dream_render": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "belief_move": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "headline_punch": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "mechanism_honesty": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "mean": { "type": "number" },
+          "evidence": { "type": "string" }
+        }
+      }
+    }
+  }
+}

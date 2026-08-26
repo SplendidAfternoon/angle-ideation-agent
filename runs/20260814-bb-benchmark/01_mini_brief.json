@@ -1,0 +1,143 @@
+{
+  "avatar": {
+    "name": "The Night-Watch Newborn Mother",
+    "description": "A mother of a congested newborn whose nights are built around a blocked nose: feeds stall, sleep shatters, and every gurgle restarts a private check. She has a hospital bulb and has heard of mouth-suction tubes; she feels mean when she clears and helpless when nothing shows."
+  },
+  "pain_points": [
+    {
+      "cluster": "Night Breathing Unknown",
+      "description": "Congestion sounds like she cannot tell if the baby is getting air.",
+      "examples": [
+        "She sounds like she can't breathe.",
+        "I keep checking his chest in the dark."
+      ]
+    },
+    {
+      "cluster": "Feed Stall",
+      "description": "Blocked nose breaks latch; the next wake comes before the last feed finished.",
+      "examples": [
+        "She pops off crying mid-feed.",
+        "Nothing works before the next bottle."
+      ]
+    },
+    {
+      "cluster": "Sealed-Tool Dread",
+      "description": "Fear of what grows or hides inside a bulb she cannot see or wash through.",
+      "examples": [
+        "What if something's growing in the bulb?",
+        "I can't see inside it."
+      ]
+    },
+    {
+      "cluster": "Cruel-Clear Guilt",
+      "description": "Clearing feels like hurting them to help them.",
+      "examples": [
+        "I feel so mean doing this.",
+        "She screams and I still have to finish."
+      ]
+    },
+    {
+      "cluster": "Unshareable Night",
+      "description": "Mouth suction or disgust makes the job one parent's only.",
+      "examples": [
+        "I couldn't hand him the tube.",
+        "He offered and I said no."
+      ]
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Hospital bulb syringe",
+      "why_it_failed": "Sealed; weak; cannot see or clean the chamber"
+    },
+    {
+      "attempt": "Mouth-suction tube (NoseFrida class)",
+      "why_it_failed": "Can work but disgust and mouth contact block handoff"
+    },
+    {
+      "attempt": "Saline, steam, sitting up",
+      "why_it_failed": "Temporary; does not remove the blockage you can prove"
+    },
+    {
+      "attempt": "Electric / Braun-class",
+      "why_it_failed": "Category doubt on control and clean; still opaque to many parents"
+    }
+  ],
+  "emotional_effects": [
+    "3am uncertainty without a way to know",
+    "Guilt while clearing",
+    "Exhaustion shared as a rota",
+    "Feeling incompetent in front of family",
+    "Fear this is the new forever"
+  ],
+  "exact_vocabulary": [
+    "can't breathe",
+    "checking his chest",
+    "hospital bulb",
+    "mouth suction",
+    "feel so mean",
+    "nothing comes out",
+    "pops off the bottle",
+    "I said no when he offered"
+  ],
+  "future_fears": [
+    "Another night of no feed and no sleep",
+    "Putting something unclean in a tiny nose",
+    "Never trusting her own judgment at 3am"
+  ],
+  "product_fit": {
+    "mechanism": "Nasal aspirator with a clear collection cup so mucus is visible when removed; designed to be cleaned without a sealed hidden chamber and without mouth contact.",
+    "how_it_resolves": "Turns blind guessing into a visible clear-out and makes the job handoffable without mouth suction."
+  },
+  "competitors": [
+    {
+      "name": "bulb syringe",
+      "loved": "Hospital-issued, familiar",
+      "hated": "Sealed, weak, uncleanable"
+    },
+    {
+      "name": "NoseFrida",
+      "loved": "Can actually move mucus",
+      "hated": "Mouth suction; filters; disgust"
+    },
+    {
+      "name": "Braun",
+      "loved": "No mouth contact",
+      "hated": "Control/clean doubts in the electric class"
+    }
+  ],
+  "psychosocial_currencies": [
+    {
+      "currency": "SAFETY_SECURITY",
+      "why_it_applies": "Cannot tell if breathing is enough"
+    },
+    {
+      "currency": "TRUST_SAFETY",
+      "why_it_applies": "Sealed bulb may hide growth"
+    },
+    {
+      "currency": "AGENCY_PARTNERSHIP",
+      "why_it_applies": "Mouth tube blocks handoff"
+    },
+    {
+      "currency": "GUILT_REGRET",
+      "why_it_applies": "Clearing feels cruel"
+    },
+    {
+      "currency": "AGENCY_CONTROL",
+      "why_it_applies": "Tried bulb, tube, steam \u2014 still blind"
+    },
+    {
+      "currency": "AUTHORITY",
+      "why_it_applies": "No tool shows what happened"
+    },
+    {
+      "currency": "RELATIONAL_EQUITY",
+      "why_it_applies": "Nights become shift work"
+    },
+    {
+      "currency": "IDENTITY_SELFHOOD",
+      "why_it_applies": "Always-on nights erase who she was"
+    }
+  ]
+}

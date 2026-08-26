@@ -1,0 +1,8 @@
+{
+  "run_id": "eval-collapsed-triad",
+  "methodology": "angle-ideation-agent@1.7.0",
+  "adversary": "angle-red-team@1.6.3",
+  "result": "NO_MATERIAL_HITS",
+  "material_hits": [],
+  "minor_notes": []
+}

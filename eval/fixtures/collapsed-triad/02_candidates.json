@@ -1,0 +1,14 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "working_title": "Feature win",
+      "currency_id": "SAFETY_SECURITY",
+      "belief_move": "prove",
+      "belief_statement": "Hospital-grade suction clears mucus in seconds",
+      "villain_seed": "parenthood",
+      "mechanism_bridge": "feature",
+      "confession_seed": "Buy StubBrand"
+    }
+  ]
+}

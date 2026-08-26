@@ -1,0 +1,40 @@
+{
+  "run_id": "20260813-bb-l2",
+  "methodology": "angle-ideation-agent@1.1.0",
+  "blind_drafting": true,
+  "gold_pack_opened_after_gates": true,
+  "similarity_check": {
+    "near_paraphrase_headline_count": 0,
+    "notes": "No gold headlines reused. Mould theme overlaps gold Betrayal territory but headline/framing differ (sliced hospital bulb vs cut open... made me sick). Partnership overlaps Isolation theme with different line. Within anti-cheat threshold (<3 near-paraphrases)."
+  },
+  "rubric_scores": [
+    { "angle": 1, "specificity_hollow": 5, "villain_concreteness": 5, "dream_render": 5, "belief_move": 5, "headline_punch": 4, "mechanism_honesty": 5, "mean": 4.83 },
+    { "angle": 2, "specificity_hollow": 5, "villain_concreteness": 5, "dream_render": 4, "belief_move": 5, "headline_punch": 5, "mechanism_honesty": 5, "mean": 4.83 },
+    { "angle": 3, "specificity_hollow": 5, "villain_concreteness": 5, "dream_render": 4, "belief_move": 5, "headline_punch": 5, "mechanism_honesty": 5, "mean": 4.83 },
+    { "angle": 4, "specificity_hollow": 5, "villain_concreteness": 5, "dream_render": 5, "belief_move": 5, "headline_punch": 5, "mechanism_honesty": 5, "mean": 5.0 },
+    { "angle": 5, "specificity_hollow": 5, "villain_concreteness": 4, "dream_render": 4, "belief_move": 5, "headline_punch": 4, "mechanism_honesty": 4, "mean": 4.33 },
+    { "angle": 6, "specificity_hollow": 5, "villain_concreteness": 5, "dream_render": 5, "belief_move": 5, "headline_punch": 5, "mechanism_honesty": 5, "mean": 5.0 },
+    { "angle": 7, "specificity_hollow": 4, "villain_concreteness": 5, "dream_render": 5, "belief_move": 4, "headline_punch": 4, "mechanism_honesty": 4, "mean": 4.33 },
+    { "angle": 8, "specificity_hollow": 4, "villain_concreteness": 5, "dream_render": 5, "belief_move": 4, "headline_punch": 4, "mechanism_honesty": 5, "mean": 4.5 }
+  ],
+  "pack_mean": 4.71,
+  "dimension_averages": {
+    "specificity_hollow": 4.75,
+    "villain_concreteness": 4.875,
+    "dream_render": 4.625,
+    "belief_move": 4.75,
+    "headline_punch": 4.5,
+    "mechanism_honesty": 4.75
+  },
+  "l2_pass_criteria": {
+    "pack_mean_ge_4": true,
+    "no_dimension_avg_lt_3_5": true,
+    "all_gates_pass": true
+  },
+  "l2_result": "PASS",
+  "patches_applied": [
+    "docs/03 villain binding + dream render rules",
+    "docs/04 A-VILLAIN / A-DREAM tightened",
+    "angles 7-8 rewritten in 05_angle_pack.md"
+  ]
+}

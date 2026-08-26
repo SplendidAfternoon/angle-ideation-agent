@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.angle-ideation-agent/schemas/chain_judge.schema.json",
+  "title": "ChainJudge",
+  "description": "Critic judgment of Q1–Q8 before pack prose is allowed to ship.",
+  "type": "object",
+  "required": [
+    "run_id",
+    "methodology",
+    "critic",
+    "result",
+    "chains"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "methodology": { "type": "string", "pattern": "^angle-ideation-agent@" },
+    "critic": { "type": "string", "pattern": "^angle-gate-critic@" },
+    "result": { "enum": ["PASS", "FAIL"] },
+    "revision_loop": { "type": "integer", "minimum": 0, "maximum": 2 },
+    "telemetry": {
+      "type": "object",
+      "properties": {
+        "trace_id": { "type": "string" },
+        "model_version": { "type": "string" },
+        "temperature": { "type": "number", "minimum": 0, "maximum": 2 },
+        "tokens_in": { "type": "integer" },
+        "tokens_out": { "type": "integer" }
+      },
+      "additionalProperties": false
+    },
+    "chains": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "angle_ordinal",
+          "Q2_villain",
+          "Q3_dream",
+          "Q7_core",
+          "Q8_headline",
+          "result",
+          "evidence"
+        ],
+        "properties": {
+          "angle_ordinal": { "type": "integer", "minimum": 1 },
+          "Q2_villain": { "enum": ["PASS", "FAIL"] },
+          "Q3_dream": { "enum": ["PASS", "FAIL"] },
+          "Q7_core": { "enum": ["PASS", "FAIL"] },
+          "Q8_headline": { "enum": ["PASS", "FAIL"] },
+          "result": { "enum": ["PASS", "FAIL"] },
+          "evidence": { "type": "string" },
+          "fix_hint": { "type": "string" }
+        }
+      }
+    }
+  }
+}

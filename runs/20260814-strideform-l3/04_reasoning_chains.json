@@ -1,0 +1,150 @@
+{
+  "run_id": "20260814-strideform-l3",
+  "methodology": "angle-ideation-agent@1.4.0",
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "candidate_id": "C03",
+      "currency_id": "AGENCY_CONTROL",
+      "Q1_hollow": "Cabinet of dead gel pads; effort without lasting change; still hobbling",
+      "Q2_villain": "Compressible gel/foam pads that pancake under load",
+      "Q3_dream": "Slide foot into shoe and feel a firm arch answer — not mush",
+      "Q4_currency": "AGENCY_CONTROL",
+      "Q5_arc": "Bought pads → flattened → bought again → twist: softness was the trap → structured contour",
+      "Q6_fit": "StrideForm's structured arch + heel cushion redistributes pressure instead of compressing away",
+      "Q7_core": "Trying harder with pads that flatten is not control — it's a loop",
+      "Q8_headlines": [
+        "I kept buying gel pads that went flat.",
+        "Soft pads stole another week of mornings.",
+        "My shoe graveyard was all pancake foam."
+      ],
+      "headline_picked": "I kept buying gel pads that went flat."
+    },
+    {
+      "angle_ordinal": 2,
+      "candidate_id": "C01",
+      "currency_id": "FUTURE_SECURITY",
+      "Q1_hollow": "Training calendar becomes a museum; future self locked out of runs",
+      "Q2_villain": "Wait-and-stretch-only advice that never changes underfoot load",
+      "Q3_dream": "Lacing up without negotiating with next month's regret",
+      "Q4_currency": "FUTURE_SECURITY",
+      "Q5_arc": "Skipped runs → 'temporary' story → calendar fills with absences → twist: waiting was the plan → need load change now",
+      "Q6_fit": "Contoured support changes today's landing so the future isn't only rest theater",
+      "Q7_core": "Waiting doesn't pause heel damage to your life — it schedules a smaller one",
+      "Q8_headlines": [
+        "I scheduled a future without morning runs.",
+        "Stretching alone booked me a smaller life.",
+        "I watched the race date pass from the couch."
+      ],
+      "headline_picked": "I scheduled a future without morning runs."
+    },
+    {
+      "angle_ordinal": 3,
+      "candidate_id": "C06",
+      "currency_id": "TRUST_SAFETY",
+      "Q1_hollow": "Trusted the soft pad; mornings returned worse after it died",
+      "Q2_villain": "Drugstore gel heel pad that flattens into betrayal",
+      "Q3_dream": "Open the shoe, see a contour that still has shape after weeks",
+      "Q4_currency": "TRUST_SAFETY",
+      "Q5_arc": "Trusted gel → relief → flat hard nothing → twist: the helper failed → need non-collapsing structure",
+      "Q6_fit": "Structured orthotic contour resists the pancake failure mode",
+      "Q7_core": "The pad you trusted to protect the heel may be what quit on you",
+      "Q8_headlines": [
+        "The gel pad went flat and took my mornings.",
+        "My trusted heel cushion quit midweek.",
+        "Soft comfort betrayed me by week two."
+      ],
+      "headline_picked": "The gel pad went flat and took my mornings."
+    },
+    {
+      "angle_ordinal": 4,
+      "candidate_id": "C02",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "Q1_hollow": "Bench parent / non-runner identity settling in",
+      "Q2_villain": "'Just get older' cope that turns hobbling into personality",
+      "Q3_dream": "Catch yourself mid-chase without narrating the limp",
+      "Q4_currency": "IDENTITY_SELFHOOD",
+      "Q5_arc": "Used to play → sat out → called it maturity → twist: load not identity → doorway back",
+      "Q6_fit": "Pressure redistribution makes movement feel like you again",
+      "Q7_core": "Heel pain doesn't just stop runs — it rewrites who you think you are",
+      "Q8_headlines": [
+        "I became the bench parent on purpose.",
+        "Morning hobbling rewrote who I was.",
+        "I stopped recognizing the person who used to run."
+      ],
+      "headline_picked": "I became the bench parent on purpose."
+    },
+    {
+      "angle_ordinal": 5,
+      "candidate_id": "C04",
+      "currency_id": "GUILT_REGRET",
+      "Q1_hollow": "Snapping when kids ask to play; guilt after sitting out",
+      "Q2_villain": "First-step stab ritual that makes care feel like self-harm",
+      "Q3_dream": "Saying yes to tag without calculating the heel cost",
+      "Q4_currency": "GUILT_REGRET",
+      "Q5_arc": "Wanted to play → heel owned morning → snapped → twist: blame on stab not character → change landing",
+      "Q6_fit": "Kinder first steps reduce the guilt spill into parenting",
+      "Q7_core": "Feeling cruel for sitting out means the morning ritual is wrong — not that you are",
+      "Q8_headlines": [
+        "I snapped when they asked me to play.",
+        "My heel made me refuse another game.",
+        "Guilt arrived every time I chose the bench."
+      ],
+      "headline_picked": "I snapped when they asked me to play."
+    },
+    {
+      "angle_ordinal": 6,
+      "candidate_id": "C08",
+      "currency_id": "AUTHORITY",
+      "Q1_hollow": "Competence collapse — stretch threads, no answer under the foot",
+      "Q2_villain": "Just-stretch / just-rest advice with no load mechanism",
+      "Q3_dream": "Knowing what you're standing on — a clear underfoot answer",
+      "Q4_currency": "AUTHORITY",
+      "Q5_arc": "Followed tips → still stabbed → advice fog → twist: need structure not slogans → contour mechanism",
+      "Q6_fit": "Clear mechanism: redistribute plantar pressure via arch contour",
+      "Q7_core": "You can't be a capable problem-solver if every tip ignores how you land",
+      "Q8_headlines": [
+        "Everyone had a stretch; nobody fixed my landing.",
+        "Rest advice never told me how to stand.",
+        "I lost trust in tips that ignored my feet."
+      ],
+      "headline_picked": "Everyone had a stretch; nobody fixed my landing."
+    },
+    {
+      "angle_ordinal": 7,
+      "candidate_id": "C05",
+      "currency_id": "SOCIAL_STATUS",
+      "Q1_hollow": "Hiding the limp in hallways and gym parking lots",
+      "Q2_villain": "Flat fashion sneakers treated as 'fine for work'",
+      "Q3_dream": "Walk the open-plan floor without timing your steps",
+      "Q4_currency": "SOCIAL_STATUS",
+      "Q5_arc": "Limp → hide → joke it off → twist: shoe had no support → insert into daily shoes",
+      "Q6_fit": "Insoles bring structure into the shoes you already wear in public",
+      "Q7_core": "The limp isn't just pain — it's a competence costume you didn't choose",
+      "Q8_headlines": [
+        "I timed hallway walks so nobody saw me limp.",
+        "Work shoes made my hobble public.",
+        "I hid my limp between parked cars."
+      ],
+      "headline_picked": "I timed hallway walks so nobody saw me limp."
+    },
+    {
+      "angle_ordinal": 8,
+      "candidate_id": "C07",
+      "currency_id": "RELATIONAL_EQUITY",
+      "Q1_hollow": "Partner takes dog walks and errands; tenderness becomes logistics",
+      "Q2_villain": "Unfinished heel mornings that dump movement chores on one person",
+      "Q3_dream": "Same sidewalk, shared pace, no apology for the limp",
+      "Q4_currency": "RELATIONAL_EQUITY",
+      "Q5_arc": "Shared walks → one sits out → quiet resentment → twist: load imbalance not love imbalance → fix mornings",
+      "Q6_fit": "Stable underfoot mornings make partnership walks shareable again",
+      "Q7_core": "When one heel owns the morning, the partnership becomes a rota",
+      "Q8_headlines": [
+        "My heel turned us into unequal walking partners.",
+        "They took another walk because I couldn't.",
+        "Errands became their job while I sat out."
+      ],
+      "headline_picked": "My heel turned us into unequal walking partners."
+    }
+  ]
+}

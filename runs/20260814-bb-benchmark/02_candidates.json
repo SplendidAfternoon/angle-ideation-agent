@@ -1,0 +1,121 @@
+{
+  "run_id": "20260814-bb-benchmark",
+  "methodology": "angle-ideation-agent@1.6.0",
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "working_title": "Chest-check unknown",
+      "currency_id": "SAFETY_SECURITY",
+      "belief_move": "shift",
+      "belief_statement": "Night sounds steal the ability to know, not just sleep",
+      "pain_refs": [
+        "pain_points[0]"
+      ],
+      "villain_seed": "Blind bulb that answers with noise not proof",
+      "mechanism_bridge": "Clear cup shows mucus leave",
+      "confession_seed": "I pressed my ear to his chest and learned nothing"
+    },
+    {
+      "candidate_id": "C02",
+      "working_title": "Sealed chamber",
+      "currency_id": "TRUST_SAFETY",
+      "belief_move": "shift",
+      "belief_statement": "The trusted hospital bulb may be the thing you should fear",
+      "pain_refs": [
+        "pain_points[2]"
+      ],
+      "villain_seed": "Sealed rubber you cannot see, clean, or dry",
+      "mechanism_bridge": "Open pieces / visible cup",
+      "confession_seed": "The bulb I trusted hid a smell I couldn't unsee"
+    },
+    {
+      "candidate_id": "C03",
+      "working_title": "Unshareable mouth",
+      "currency_id": "AGENCY_PARTNERSHIP",
+      "belief_move": "prove",
+      "belief_statement": "A mouth-tube decides who can parent the clear-out",
+      "pain_refs": [
+        "pain_points[4]"
+      ],
+      "villain_seed": "Mouth-suction design",
+      "mechanism_bridge": "No mouth contact",
+      "confession_seed": "Mouth suction made help a job only I would take"
+    },
+    {
+      "candidate_id": "C04",
+      "working_title": "Mean while helping",
+      "currency_id": "GUILT_REGRET",
+      "belief_move": "shift",
+      "belief_statement": "Feeling cruel during a clear-out means the ritual is wrong",
+      "pain_refs": [
+        "pain_points[3]"
+      ],
+      "villain_seed": "Blind rough clear-outs with no proof",
+      "mechanism_bridge": "Visible gentle-enough clear",
+      "confession_seed": "Clearing her nose made me feel like I was hurting her"
+    },
+    {
+      "candidate_id": "C05",
+      "working_title": "Shopping blindness",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "shift",
+      "belief_statement": "Buying another opaque tool is not a plan",
+      "pain_refs": [
+        "failed_attempts"
+      ],
+      "villain_seed": "Category of sealed or mouth-bound tools",
+      "mechanism_bridge": "Visible result",
+      "confession_seed": "Three tubes later I was still guessing in the dark"
+    },
+    {
+      "candidate_id": "C06",
+      "working_title": "No answer layer",
+      "currency_id": "AUTHORITY",
+      "belief_move": "shift",
+      "belief_statement": "You cannot be capable if the tool never shows what happened",
+      "pain_refs": [
+        "pain_points[0]"
+      ],
+      "villain_seed": "Guess-dispenser bulb",
+      "mechanism_bridge": "Cup as answer",
+      "confession_seed": "Advice stacked up and none of it showed me the blockage"
+    },
+    {
+      "candidate_id": "C07",
+      "working_title": "Rota nights",
+      "currency_id": "RELATIONAL_EQUITY",
+      "belief_move": "prove",
+      "belief_statement": "Congestion turns partnership into logistics",
+      "pain_refs": [
+        "emotional_effects"
+      ],
+      "villain_seed": "Failed clear-outs that keep both adults awake",
+      "mechanism_bridge": "Finished visible clear so both can clock out",
+      "confession_seed": "Nights turned us into a rota instead of a couple"
+    },
+    {
+      "candidate_id": "C08",
+      "working_title": "Erased morning face",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "belief_move": "prove",
+      "belief_statement": "Endless ON nights make a crisis feel like personality",
+      "pain_refs": [
+        "future_fears"
+      ],
+      "villain_seed": "Just-cope newborn-stage advice covering a hospital bulb that never shows a finish",
+      "mechanism_bridge": "A night that can end visibly",
+      "confession_seed": "2am clearing left no version of me by morning"
+    },
+    {
+      "candidate_id": "C09",
+      "working_title": "Feature reject",
+      "currency_id": "SAFETY_SECURITY",
+      "belief_move": "prove",
+      "belief_statement": "Clear cup is a spec win",
+      "pain_refs": [],
+      "villain_seed": "n/a",
+      "mechanism_bridge": "feature",
+      "confession_seed": "Buy the cup"
+    }
+  ]
+}

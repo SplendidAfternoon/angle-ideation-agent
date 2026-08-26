@@ -1,0 +1,127 @@
+{
+  "run_id": "20260813-bb-l2",
+  "methodology": "angle-ideation-agent@1.1.0",
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "working_title": "Night Breathing Safety",
+      "currency_id": "SAFETY_SECURITY",
+      "belief_move": "prove",
+      "belief_statement": "Those night sounds are not 'just fussiness' — congestion can block an obligate nasal breather.",
+      "pain_refs": ["pain_points[0]"],
+      "villain_seed": "Blind bulb / guesswork tools that give noise without an answer",
+      "mechanism_bridge": "Transparent chamber + regulated suction → see and clear → shorter second-guessing whether to call the nurse line",
+      "confession_seed": "his congestion terrifies me. I cry all the time and check his breathing."
+    },
+    {
+      "candidate_id": "C02",
+      "working_title": "Mould Betrayal",
+      "currency_id": "TRUST_SAFETY",
+      "belief_move": "shift",
+      "belief_statement": "The hospital bulb you trusted can hide black mould in a sealed body.",
+      "pain_refs": ["failed_attempts[1]"],
+      "villain_seed": "Sealed rubber bulb that cannot be seen, cleaned, or dried inside",
+      "mechanism_bridge": "Fully detachable transparent chamber — nothing hidden to grow",
+      "confession_seed": "black mould"
+    },
+    {
+      "candidate_id": "C03",
+      "working_title": "Mean Mother Guilt",
+      "currency_id": "GUILT_REGRET",
+      "belief_move": "shift",
+      "belief_statement": "Feeling mean during clear-outs does not mean she is a terrible mother — the tool made help feel like trauma.",
+      "pain_refs": ["pain_points[1]"],
+      "villain_seed": "Advice + tools that force rough/blind insertion rituals",
+      "mechanism_bridge": "Soft tip + controlled suction + visible clear-out → help without the cruelty script",
+      "confession_seed": "I feel like I'm traumatizing them."
+    },
+    {
+      "candidate_id": "C04",
+      "working_title": "Not Human Anymore",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "belief_move": "prove",
+      "belief_statement": "Living always ON through congestion nights erases the person she was.",
+      "pain_refs": ["pain_points[2]"],
+      "villain_seed": "Nightly ineffective clear-out loop that keeps her hypervigilant",
+      "mechanism_bridge": "Fast visible clear → feed/sleep resume → she can feel more human",
+      "confession_seed": "feel more human"
+    },
+    {
+      "candidate_id": "C05",
+      "working_title": "Same Broken Category",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "shift",
+      "belief_statement": "Buying another aspirator in the same broken category will fail the same way.",
+      "pain_refs": ["pain_points[3]"],
+      "villain_seed": "Category pattern: sealed/uncleanable OR powerful/uncontrolled OR disgusting mouth tube",
+      "mechanism_bridge": "Mechanism chosen for visibility + hygiene + regulated pull",
+      "confession_seed": "I've tried everything and nothing comes out."
+    },
+    {
+      "candidate_id": "C06",
+      "working_title": "Cannot Hand Off",
+      "currency_id": "AGENCY_PARTNERSHIP",
+      "belief_move": "shift",
+      "belief_statement": "Mouth-suction makes help unshareable; she stays alone by design of the tool.",
+      "pain_refs": ["competitors[0].hated"],
+      "villain_seed": "Mouth-suction tube that requires one parent's mouth and disgust tolerance",
+      "mechanism_bridge": "No mouth contact electric clear — handoff without a speech",
+      "confession_seed": "most disgusting tasks I've had to do as a parent"
+    },
+    {
+      "candidate_id": "C07",
+      "working_title": "Wrestling Audience",
+      "currency_id": "SOCIAL_STATUS",
+      "belief_move": "prove",
+      "belief_statement": "A tool that only works on a still baby sets her up to look incompetent while wrestling a rolling infant.",
+      "pain_refs": ["pain_points[5]"],
+      "villain_seed": "Design assuming a calm, still baby; loud motors/lights that escalate the scene",
+      "mechanism_bridge": "Quieter controlled clear + visible proof she did it",
+      "confession_seed": "wrestling a rolling baby at 2 a.m."
+    },
+    {
+      "candidate_id": "C08",
+      "working_title": "Shift Marriage",
+      "currency_id": "RELATIONAL_EQUITY",
+      "belief_move": "prove",
+      "belief_statement": "Neither sleeping turns partners into opposing night-shift workers.",
+      "pain_refs": ["pain_points[2]"],
+      "villain_seed": "Ineffective night clear-outs that steal shared rest",
+      "mechanism_bridge": "Clear nose → sleep returns → partnership can exist again",
+      "confession_seed": "Neither of us is sleeping."
+    },
+    {
+      "candidate_id": "C09",
+      "working_title": "Guess Dispenser",
+      "currency_id": "AUTHORITY",
+      "belief_move": "shift",
+      "belief_statement": "She cannot trust her judgment because the tool never shows what is happening.",
+      "pain_refs": ["pain_points[5]", "pain_points[0]"],
+      "villain_seed": "Opaque bulb / weak feedback loop — sealed guess dispenser",
+      "mechanism_bridge": "Transparent chamber: see the gunk, know the answer",
+      "confession_seed": "see and hear the difference straight away"
+    },
+    {
+      "candidate_id": "C10",
+      "working_title": "Forced Roughness",
+      "currency_id": "GENTLENESS",
+      "belief_move": "shift",
+      "belief_statement": "Helping should not require feeling brutal.",
+      "pain_refs": ["pain_points[1]", "failed_attempts[1]"],
+      "villain_seed": "Blind hard tip bulb that irritates membranes",
+      "mechanism_bridge": "Soft silicone tip + regulated suction",
+      "confession_seed": "I feel like I'm traumatizing them."
+    },
+    {
+      "candidate_id": "C11",
+      "working_title": "Clears Fast Claim",
+      "currency_id": "AGENCY_CONTROL",
+      "belief_move": "prove",
+      "belief_statement": "Hospital-grade suction clears mucus fast.",
+      "pain_refs": ["pain_points[3]"],
+      "villain_seed": "weak suction",
+      "mechanism_bridge": "stronger motor",
+      "confession_seed": "clears nose instantly"
+    }
+  ]
+}

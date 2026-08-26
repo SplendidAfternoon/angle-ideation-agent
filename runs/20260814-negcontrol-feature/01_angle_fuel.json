@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "scenario": "B",
+    "methodology": "angle-ideation-agent@1.5.0",
+    "product_name": "Baby Bubble",
+    "source_refs": ["NEGATIVE CONTROL — Scenario B thin inputs; pack is intentionally invalid"]
+  },
+  "avatar": {
+    "name": "The Overextended Newborn-Season Mother",
+    "description": "First-time or early postpartum mother whose nights are ruled by a blocked nose: feeding stalls, sleep shatters, and every gurgle starts a private panic.",
+    "awareness_notes": "Solution-aware on saline/bulb; cynical about empty clears-instantly claims.",
+    "labels": { "description": "PLAUSIBLE_INFERENCE" }
+  },
+  "pain_points": [
+    {
+      "cluster": "Night Breathing Fear",
+      "description": "Congestion sounds like the baby cannot breathe.",
+      "examples": ["She sounds like she can't breathe.", "I keep checking his chest in the dark."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Feed Block",
+      "description": "Blocked nose breaks latch.",
+      "examples": ["She pops off crying mid-feed."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Mean Mother Guilt",
+      "description": "Clearing feels cruel.",
+      "examples": ["I feel so mean doing this."],
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Hospital bulb syringe",
+      "why_it_failed": "Sealed; cannot see or clean inside",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Mouth-suction tube",
+      "why_it_failed": "Disgust; cannot hand off",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "emotional_effects": ["Guilt", "Exhaustion", "Panic"],
+  "exact_vocabulary": [
+    "can't breathe",
+    "hospital bulb",
+    "mouth suction",
+    "feel so mean",
+    "checking his chest"
+  ],
+  "future_fears": ["Another night of no feed and no sleep"],
+  "product_fit": {
+    "mechanism": "Nasal aspirator with a clear collection cup so mucus is visible when removed.",
+    "how_it_resolves": "Turns blind guessing into a visible clear-out.",
+    "label": "PLAUSIBLE_INFERENCE"
+  },
+  "competitors": [
+    {
+      "name": "bulb syringe",
+      "loved": "Hospital-issued",
+      "hated": "Sealed; mould risk",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "psychosocial_currencies_candidates": [
+    { "currency_id": "SAFETY_SECURITY", "why_it_applies": "Night breathing fear", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "TRUST_SAFETY", "why_it_applies": "Bulb betrayal", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "AGENCY_CONTROL", "why_it_applies": "Tried everything", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "GUILT_REGRET", "why_it_applies": "Mean-mother guilt", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "RELATIONAL_EQUITY", "why_it_applies": "Nights as shift work", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "IDENTITY_SELFHOOD", "why_it_applies": "Lost self", "label": "PLAUSIBLE_INFERENCE" }
+  ],
+  "beliefs": {
+    "held": ["The bulb is what hospitals use so it must be fine"],
+    "ready_to_shift": ["Seeing the clear-out matters more than hoping"],
+    "label": "PLAUSIBLE_INFERENCE"
+  },
+  "gaps": []
+}

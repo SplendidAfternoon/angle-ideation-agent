@@ -1,0 +1,21 @@
+{
+  "run_id": "20260813-hairloss-l3",
+  "methodology": "angle-ideation-agent@1.1.1",
+  "forbidden_tokens": [
+    "Baby Bubble",
+    "bulb syringe",
+    "mouth-suction",
+    "mouth suction",
+    "nasal aspirator",
+    "newborn",
+    "black mould",
+    "NoseFrida",
+    "congestion",
+    "bassinet",
+    "911"
+  ],
+  "scan_targets": ["05_angle_pack.md", "04_reasoning_chains.json", "01_angle_fuel.json", "02_candidates.json"],
+  "matches_found": [],
+  "pass": true,
+  "notes": "Content artifacts (01,02,04,05) scanned clean. Route/leak-config files may list forbidden tokens by design. Transfer niche uses hair-loss native villains only."
+}

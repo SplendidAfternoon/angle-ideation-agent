@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "scenario": "A",
+    "methodology": "angle-ideation-agent@1.1.0",
+    "product_name": "Baby Bubble",
+    "source_refs": [
+      "Market Research / Exemplar Avatar Research Dossier",
+      "Product: Baby Bubble; mechanism: Safe-Suction Hygiene System"
+    ]
+  },
+  "avatar": {
+    "name": "The Vigilant Nighttime Parent",
+    "description": "First-time mother, typically 25–35, weeks 0–12 postpartum (acute 0–8 weeks). Hypervigilant and 'always ON,' navigating identity shift, physical recovery, and postpartum anxiety. Congestion at night triggers fear the baby cannot breathe; feeding and sleep collapse; she feels isolated and guilty when clearing the nose feels mean or disgusting.",
+    "awareness_notes": "Problem-aware ~25% (gurgling, refuse bottle, night screams); Solution-aware ~50% (saline, bulb, humidifier, steamy bathroom, mouth-suction); Product-aware ~25% (NoseFrida vs Momcozy/Grownsy/Braun; bulbs 'barely work'). Market sophistication Stage 3–4: cynical about 'hospital-grade' claims; needs unique mechanism.",
+    "labels": { "description": "EVIDENCED", "awareness_notes": "EVIDENCED" }
+  },
+  "pain_points": [
+    {
+      "cluster": "Breathing Fear",
+      "description": "Night sounds make her worried the baby cannot breathe; she wakes repeatedly to check breathing and monitor feeding.",
+      "examples": [
+        "My baby sounds like they can't breathe.",
+        "his congestion terrifies me. I cry all the time and check his breathing."
+      ],
+      "label": "EVIDENCED"
+    },
+    {
+      "cluster": "Guilt Traumatizing",
+      "description": "Clearing the nose feels cruel; she feels like she is traumatizing the baby to help them.",
+      "examples": [
+        "I feel like I'm traumatizing them.",
+        "I hate baby congestion, I feel so mean"
+      ],
+      "label": "EVIDENCED"
+    },
+    {
+      "cluster": "Shared Exhaustion",
+      "description": "Blocked nose blocks feed and sleep; neither parent rests; household becomes a night shift.",
+      "examples": [
+        "Neither of us is sleeping.",
+        "Being mentally ON all the time I barely get real rest"
+      ],
+      "label": "EVIDENCED"
+    },
+    {
+      "cluster": "Failed Extraction",
+      "description": "She tries tools and nothing comes out; frustration compounds helplessness.",
+      "examples": [
+        "I've tried everything and nothing comes out.",
+        "cheap bulb syringes tried and found to barely work"
+      ],
+      "label": "EVIDENCED"
+    },
+    {
+      "cluster": "Urgency Before Feed",
+      "description": "Must clear before next feed/night or latch fails and distress returns.",
+      "examples": [
+        "I need this fixed before the next feed/night.",
+        "Is your baby popping off the bottle and crying? It is not gas, they just cannot breathe through their nose."
+      ],
+      "label": "EVIDENCED"
+    },
+    {
+      "cluster": "Competence / Visibility",
+      "description": "She needs to see gunk leave to feel like a capable parent, not guessing in the dark.",
+      "examples": [
+        "I want an easy-to-clean durable aspirator with a transparent chamber so I can see the gunk come out so I can feel like a capable, confident parent."
+      ],
+      "label": "EVIDENCED"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Saline drops alone",
+      "why_it_failed": "Only thins mucus; does not remove blockage; often causes gagging.",
+      "label": "EVIDENCED"
+    },
+    {
+      "attempt": "Hospital bulb syringe",
+      "why_it_failed": "Blind tip irritates membranes; weak suction; closed body breeds hidden black mould.",
+      "label": "EVIDENCED"
+    },
+    {
+      "attempt": "Manual mouth-suction (NoseFrida-style)",
+      "why_it_failed": "Unstable suction; filter slippage anxiety; widely hated as disgusting; cross-contamination fear.",
+      "label": "EVIDENCED"
+    },
+    {
+      "attempt": "Cheap / some electric aspirators",
+      "why_it_failed": "Suction weakens; fragile hard-to-clean cups; persistent internal smell; motors/lights scare baby.",
+      "label": "EVIDENCED"
+    }
+  ],
+  "emotional_effects": [
+    "Fear",
+    "Guilt",
+    "Exhaustion",
+    "Frustration",
+    "Urgency",
+    "Protection drive",
+    "Sense of dread",
+    "Postpartum anxiety",
+    "Isolation"
+  ],
+  "exact_vocabulary": [
+    "always ON",
+    "newborn trenches",
+    "my world was upside down",
+    "sense of dread every day",
+    "congestion terrifies me",
+    "I cry all the time and check his breathing",
+    "wrestling a rolling baby at 2 a.m.",
+    "steamy bathroom sessions",
+    "gurgling sound",
+    "thick mucus",
+    "horrifying snot",
+    "snot sucker",
+    "satisfying clean out",
+    "see and hear the difference straight away",
+    "feel more human",
+    "nap trapped",
+    "village",
+    "most disgusting tasks I've had to do as a parent",
+    "filter kept falling out",
+    "black mould"
+  ],
+  "future_fears": [
+    "Baby choking or gasping at night",
+    "Getting sick herself from mouth-suction / contamination",
+    "Another night of no latch and no sleep",
+    "Winter cold season making congestion endless",
+    "Never feeling like a capable parent"
+  ],
+  "product_fit": {
+    "mechanism": "Safe-Suction Hygiene System: regulated micro-motor suction; soft silicone tips; secure filter clasp; 100% detachable transparent collection chamber that can be boiled/sterilised; designed for visibility, hygiene, and controlled pull without mouth contact.",
+    "how_it_resolves": "Lets her clear thick mucus quickly, see what came out, clean every part, avoid mouth-suction disgust and sealed mould chambers, and restore nighttime calm so feeding and sleep can resume.",
+    "label": "DERIVED"
+  },
+  "competitors": [
+    {
+      "name": "NoseFrida (manual)",
+      "loved": "Immediate visual/auditory proof of clear-out; sleep and latch improvements reported.",
+      "hated": "Disgusting mouth-suction; filter falling out; fear of sucking mucus in.",
+      "label": "EVIDENCED"
+    },
+    {
+      "name": "Bulb syringe",
+      "loved": "Hospital-issued, familiar, cheap.",
+      "hated": "Barely works; irritates; hidden mould in sealed rubber body.",
+      "label": "EVIDENCED"
+    },
+    {
+      "name": "Momcozy / Frida Electric / Grownsy class",
+      "loved": "Electric convenience; some gentle suction / lights.",
+      "hated": "Suction fades; hard-to-clean cups; smells; scary motors/lights; reliability complaints.",
+      "label": "EVIDENCED"
+    }
+  ],
+  "psychosocial_currencies_candidates": [
+    {
+      "currency_id": "SAFETY_SECURITY",
+      "why_it_applies": "Night breathing fear and second-guessing whether to call the nurse line dominate the refined niche.",
+      "evidence_refs": ["pain_points[0]", "exact_vocabulary[congestion terrifies me]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "TRUST_SAFETY",
+      "why_it_applies": "Trusted bulb/mouth tools betray via mould, filters, contamination.",
+      "evidence_refs": ["failed_attempts[1]", "failed_attempts[2]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "GUILT_REGRET",
+      "why_it_applies": "Feels mean/traumatizing while trying to help.",
+      "evidence_refs": ["pain_points[1]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "IDENTITY_SELFHOOD",
+      "why_it_applies": "Always ON; wants to feel more human; world upside down.",
+      "evidence_refs": ["exact_vocabulary[feel more human]", "exact_vocabulary[my world was upside down]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "AGENCY_CONTROL",
+      "why_it_applies": "Tried everything; nothing comes out; category failures repeat.",
+      "evidence_refs": ["pain_points[3]", "failed_attempts"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "AGENCY_PARTNERSHIP",
+      "why_it_applies": "Mouth-suction too disgusting to share; isolation inside couple possible.",
+      "evidence_refs": ["competitors[0].hated", "emotional_effects[Isolation]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "SOCIAL_STATUS",
+      "why_it_applies": "Wrestling baby / public or family competence; wants capable parent identity with visible proof.",
+      "evidence_refs": ["pain_points[5]", "exact_vocabulary[wrestling a rolling baby at 2 a.m.]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "RELATIONAL_EQUITY",
+      "why_it_applies": "Neither of us is sleeping; household becomes shift work.",
+      "evidence_refs": ["pain_points[2]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "AUTHORITY",
+      "why_it_applies": "Cannot trust own judgment at 3 a.m.; needs to see not guess.",
+      "evidence_refs": ["pain_points[0]", "pain_points[5]"],
+      "label": "DERIVED"
+    },
+    {
+      "currency_id": "GENTLENESS",
+      "why_it_applies": "Blind bulb irritates; she hates feeling rough/mean during clear-outs.",
+      "evidence_refs": ["pain_points[1]", "failed_attempts[1]"],
+      "label": "DERIVED"
+    }
+  ],
+  "beliefs": {
+    "held": [
+      "Infants are nasal breathers; blocked nose blocks feed and sleep.",
+      "Night congestion can sound like the baby cannot breathe.",
+      "Basic 'clears instantly / hospital-grade' claims often disappoint."
+    ],
+    "ready_to_shift": [
+      "The problem is not that she is a weak mother — prior tools are sealed, blind, disgusting, or uncontrolled.",
+      "A transparent, fully cleanable, mouth-free regulated suction system is a different mechanism than the failed category."
+    ],
+    "label": "DERIVED"
+  },
+  "gaps": [
+    {
+      "field": "product_fit.mechanism branding specifics",
+      "status": "UNKNOWN",
+      "impact": "Dossier lists proposed Safe-Suction Hygiene System; brand Baby Bubble used as pack product_name. No external ad creatives available."
+    },
+    {
+      "field": "partner relationship verbatim",
+      "status": "UNKNOWN",
+      "impact": "Relational equity supported by 'neither of us sleeping' but fewer direct marriage quotes than sleep/fear quotes."
+    }
+  ]
+}

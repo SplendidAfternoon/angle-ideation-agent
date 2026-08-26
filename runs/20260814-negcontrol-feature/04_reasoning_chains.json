@@ -1,0 +1,91 @@
+{
+  "run_id": "20260814-negcontrol-feature",
+  "methodology": "angle-ideation-agent@1.5.0",
+  "notes": "NEGATIVE CONTROL — Q1–Q8 are feature/mood/offer answers on purpose.",
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "candidate_id": "C01",
+      "currency_id": "SAFETY_SECURITY",
+      "Q1_hollow": "She felt stressed",
+      "Q2_villain": "Parenthood is hard",
+      "Q3_dream": "Life got better",
+      "Q4_currency": "SAFETY_SECURITY",
+      "Q5_arc": "Tried bulb, bought Baby Bubble, slept",
+      "Q6_fit": "Hospital-grade suction",
+      "Q7_core": "Hospital-grade suction clears mucus in seconds.",
+      "Q8_headlines": ["Baby Bubble changed our sleepless nights forever."],
+      "headline_picked": "Baby Bubble changed our sleepless nights forever."
+    },
+    {
+      "angle_ordinal": 2,
+      "candidate_id": "C02",
+      "currency_id": "IDENTITY_SELFHOOD",
+      "Q1_hollow": "She felt stressed and overwhelmed every night.",
+      "Q2_villain": "The situation",
+      "Q3_dream": "Finally she was happy",
+      "Q4_currency": "IDENTITY_SELFHOOD",
+      "Q5_arc": "Tried bulb bought product slept",
+      "Q6_fit": "Our product helps",
+      "Q7_core": "A must-have transparent collection cup.",
+      "Q8_headlines": ["At 3am I realized our bulb was the problem."],
+      "headline_picked": "At 3am I realized our bulb was the problem."
+    },
+    {
+      "angle_ordinal": 3,
+      "candidate_id": "C03",
+      "currency_id": "AGENCY_CONTROL",
+      "Q1_hollow": "She felt sad and stressed.",
+      "Q2_villain": "The loop",
+      "Q3_dream": "I opened the Baby Bubble box and cried happy tears.",
+      "Q4_currency": "AGENCY_CONTROL",
+      "Q5_arc": "Saw 20% off, ordered, slept",
+      "Q6_fit": "Discount",
+      "Q7_core": "20% off the aspirator moms swear by.",
+      "Q8_headlines": ["Order now — hospital-grade miracle hack."],
+      "headline_picked": "Order now — hospital-grade miracle hack."
+    },
+    {
+      "angle_ordinal": 4,
+      "candidate_id": "C04",
+      "currency_id": "TRUST_SAFETY",
+      "Q1_hollow": "She was exhausted and sad.",
+      "Q2_villain": "Lack of sleep",
+      "Q3_dream": "Unboxing joy",
+      "Q4_currency": "TRUST_SAFETY",
+      "Q5_arc": "Bought the game-changer",
+      "Q6_fit": "Game-changer cup",
+      "Q7_core": "Clear cup is a game-changer.",
+      "Q8_headlines": ["Baby Bubble is the must-have sleep hack."],
+      "headline_picked": "Baby Bubble is the must-have sleep hack."
+    },
+    {
+      "angle_ordinal": 5,
+      "candidate_id": "C05",
+      "currency_id": "GUILT_REGRET",
+      "Q1_hollow": "She felt stressed and overwhelmed every night.",
+      "Q2_villain": "Parenthood is just really hard.",
+      "Q3_dream": "Life got better and she was happy.",
+      "Q4_currency": "GUILT_REGRET",
+      "Q5_arc": "Tried bulb bought product slept",
+      "Q6_fit": "Helps moms",
+      "Q7_core": "Hospital-grade suction clears mucus in seconds.",
+      "Q8_headlines": ["For weeks Baby Bubble was our secret trick."],
+      "headline_picked": "For weeks Baby Bubble was our secret trick."
+    },
+    {
+      "angle_ordinal": 6,
+      "candidate_id": "C06",
+      "currency_id": "RELATIONAL_EQUITY",
+      "Q1_hollow": "They felt stressed as a couple.",
+      "Q2_villain": "The night loop",
+      "Q3_dream": "Opened the box and felt better.",
+      "Q4_currency": "RELATIONAL_EQUITY",
+      "Q5_arc": "Tried bulb → bought product → slept (no twist)",
+      "Q6_fit": "Feature list",
+      "Q7_core": "Transparent collection cup. Quiet motor. Easy rinse.",
+      "Q8_headlines": ["Today, Baby Bubble saved our marriage journey."],
+      "headline_picked": "Today, Baby Bubble saved our marriage journey."
+    }
+  ]
+}

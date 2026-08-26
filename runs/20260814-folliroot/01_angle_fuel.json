@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "scenario": "B",
+    "methodology": "angle-ideation-agent@1.6.3",
+    "product_name": "FolliRoot",
+    "source_refs": [
+      "runs/20260814-folliroot/01_mini_brief.json"
+    ],
+    "style_controls": {
+      "intensity": 5,
+      "darkness": 0,
+      "formality": 2,
+      "distance": 1
+    },
+    "telemetry": {
+      "trace_id": "trace-20260814-folliroot-001",
+      "model_version": "gemini-1.5-pro",
+      "temperature": 0.7,
+      "tokens_in": 1100,
+      "tokens_out": 950
+    }
+  },
+  "avatar": {
+    "name": "The Vanishing Identity Mother",
+    "description": "A 31-year-old first-time mother at 4 months postpartum who feels like her youth, femininity, and bodily integrity are slipping down the bathroom drain in thick, tangled clumps every single shower.",
+    "awareness_notes": "Problem-aware: she knows she is shedding heavily from postpartum hormone shifts, but falsely believes only biotin or waiting it out are her options."
+  },
+  "pain_points": [
+    {
+      "cluster": "Shower Dread",
+      "description": "Standing in the shower with wet hands covered in long strands, terrified to run fingers through her hair because another clump will inevitably pull away.",
+      "examples": [
+        "I looked down at my hands and there was a literal bird's nest of hair stuck to my palms.",
+        "I cry every single time I wash my hair now."
+      ],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Temple Widening & High Ponytail Shame",
+      "description": "Catching her reflection in the rearview mirror or under harsh bathroom lighting and seeing stark white scalp shining through widening temples.",
+      "examples": [
+        "I can't put my hair up in a messy bun anymore because my hairline looks receded like an old man's.",
+        "I caught a glimpse of my scalp under the kitchen spotlights and felt completely sick."
+      ],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Intimacy Alienation",
+      "description": "Feeling unattractive to her partner, constantly wearing headbands, and apologizing when her shed hairs are found on his shirts, bedsheets, and the baby's onesies.",
+      "examples": [
+        "I pull my shed hairs off my baby's fingers and off my husband's chest and I just feel disgusting.",
+        "I don't want him to touch my head or run his fingers through my hair."
+      ],
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Biotin and prenatal gummies",
+      "why_it_failed": "Digestive supplements cannot counteract estrogen-drop follicle shock; they nourish growing hair but do nothing to stop telogen detachment.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Rosemary scalp oiling routines",
+      "why_it_failed": "Heavy botanical oils clog suffocated postpartum follicles, weighing down fragile strands and causing even more mechanical shedding during washing.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Generic Minoxidil / Rogaine",
+      "why_it_failed": "Causes a terrifying initial shedding phase ('dread shed') and carries safety warnings that make nursing mothers panic.",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "The 'It's Just Hormones / Wait It Out' medical brush-off",
+      "why_it_failed": "Pediatricians and OBGYNs dismiss it as temporary, ignoring the fact that dormant telogen follicles can stay inactive for 18+ months without topical stimulation.",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "emotional_effects": [
+    "Mirror aversion",
+    "Panic during hair washing",
+    "Feminine identity erosion",
+    "Feeling aged by ten years overnight",
+    "Shame over loose hairs on baby clothes"
+  ],
+  "exact_vocabulary": [
+    "handfuls in the drain",
+    "see-through temples",
+    "shedding like a dog",
+    "scalp shining through",
+    "terrified to brush it",
+    "bird's nest in my palms",
+    "it's just hormones phase",
+    "looking like a stranger"
+  ],
+  "future_fears": [
+    "Permanent hairline recession that never recovers",
+    "Losing all feminine sex appeal and being seen only as a worn-out caretaker",
+    "Developing chronic diffuse alopecia"
+  ],
+  "product_fit": {
+    "mechanism": "Bio-fermented signaling peptides and micro-encapsulated capixyl that topically penetrate the dermal papilla to mechanically inhibit follicle dormancy and accelerate anagen anchoring.",
+    "how_it_resolves": "Directly halts the telogen detachment signal at the root within 14 days and triggers dense baby-hair regrowth along widened temples without systemic hormone disruption.",
+    "label": "PLAUSIBLE_INFERENCE"
+  },
+  "competitors": [
+    {
+      "name": "Biotin Gummies",
+      "loved": "Tastes good, easy habit",
+      "hated": "Causes cystic chin acne, takes 6 months with zero noticeable halt in shedding"
+    },
+    {
+      "name": "Rosemary Scalp Dropper Oils",
+      "loved": "Natural, pleasant herbal scent",
+      "hated": "Greasy roots that require harsh shampooing, pulling out even more hair during rinsing"
+    },
+    {
+      "name": "Generic Minoxidil",
+      "loved": "Clinically proven for male pattern baldness",
+      "hated": "Causes dread-shed panic, not safe for breastfeeding, greasy residue"
+    }
+  ],
+  "psychosocial_currencies_candidates": [
+    {
+      "currency_id": "VANITY_AESTHETICS",
+      "why_it_applies": "Shock of seeing widened temples and visible scalp under harsh lighting.",
+      "evidence_refs": ["pain_points[1]"]
+    },
+    {
+      "currency_id": "SOCIAL_STATUS",
+      "why_it_applies": "Fear that returning to work with thin, patchy hair signals exhaustion and diminished vitality.",
+      "evidence_refs": ["future_fears[1]"]
+    },
+    {
+      "currency_id": "RELATIONAL_EQUITY",
+      "why_it_applies": "Feeling unattractive to partner; shame when shed hairs coat his pillows and clothes.",
+      "evidence_refs": ["pain_points[2]"]
+    },
+    {
+      "currency_id": "AUTONOMY_AGENCY",
+      "why_it_applies": "Feeling betrayed by an uncontrollable post-pregnancy body that is falling apart.",
+      "evidence_refs": ["pain_points[0]"]
+    },
+    {
+      "currency_id": "SAFETY_SECURITY",
+      "why_it_applies": "Panic that the shedding isn't normal postpartum loss but an underlying thyroid or autoimmune collapse.",
+      "evidence_refs": ["future_fears[2]"]
+    },
+    {
+      "currency_id": "RESOURCE_PRESERVATION",
+      "why_it_applies": "Wasting hundreds on useless influencer oils and gummies that only cause scalp buildup.",
+      "evidence_refs": ["failed_attempts[0]", "failed_attempts[1]"]
+    }
+  ],
+  "beliefs": {
+    "held": [
+      "Postpartum hair loss is just something you have to silently endure for a year",
+      "Taking more biotin or rubbing kitchen oils on your scalp will magically stop hair from falling out"
+    ],
+    "ready_to_shift": [
+      "Hair loss is a mechanical signal failure at the dermal papilla that can be topically re-anchored immediately"
+    ]
+  },
+  "gaps": []
+}

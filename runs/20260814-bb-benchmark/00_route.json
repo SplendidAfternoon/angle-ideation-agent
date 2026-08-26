@@ -1,0 +1,28 @@
+{
+  "run_id": "20260814-bb-benchmark",
+  "methodology": "angle-ideation-agent@1.6.1",
+  "scenario": "B",
+  "decision": "Scenario B \u2014 benchmark thin inputs only; reference gold pack not opened during draft.",
+  "inputs_summary": {
+    "avatar_description": "Mothers of newborns struggling with congestion",
+    "product_description": "A nasal aspirator with a clear collection cup",
+    "problem_statement": "Baby nasal congestion prevents sleep and feeding",
+    "competitors_optional": [
+      "NoseFrida",
+      "Braun",
+      "bulb syringe"
+    ]
+  },
+  "anti_cheat": "Gold pack unused as copy source. Headlines must not near-paraphrase reference gold pack.",
+  "revision_loop": 1,
+  "debug": {
+    "first_pass_status": "Ready rubber-stamped; honest red-team disagreed",
+    "material_hits": [
+      "F03 angle 8: unfinished clear-out loops as villain subject",
+      "F03 angle 5 pack: the blockage that never visibly ends",
+      "F05 angle 4: Dream peak looking into the cup",
+      "F05 angle 7: Dream peak gunk in the cup"
+    ],
+    "patch": "docs/03 villain/dream rules + docs/04 A-VILLAIN/A-DOOR/F03/F05 @1.6.1; regenerated Q2/Q3 on angles 4\u20138"
+  }
+}

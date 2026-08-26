@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "scenario": "B",
+    "methodology": "angle-ideation-agent@1.4.0",
+    "product_name": "StrideForm Insoles",
+    "source_refs": ["Scenario B thin inputs; mini-brief PLAUSIBLE_INFERENCE"]
+  },
+  "avatar": {
+    "name": "The Hobbling Morning Parent-Runner",
+    "description": "A 30s–40s parent who still thinks of themselves as someone who runs and plays. First steps out of bed stab the heel. They hobble to the kitchen, stretch on the stairs, and bargain with the day. Weekend park time and training plans feel like they belong to a past self.",
+    "awareness_notes": "Solution-aware on stretching, rolling a frozen bottle, gel pads; cynical about soft foam that dies in a week; not looking for surgery talk.",
+    "labels": { "description": "PLAUSIBLE_INFERENCE" }
+  },
+  "pain_points": [
+    {
+      "cluster": "First-Step Heel Stab",
+      "description": "Getting out of bed means a sharp heel grab before the foot warms up.",
+      "examples": ["That first step feels like a knife.", "I hobble to the bathroom every morning."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Stolen Play",
+      "description": "Can't chase kids or stand through a park afternoon without limping.",
+      "examples": ["I sat on the bench while they played.", "I said my foot was fine and they saw me limp."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Training Identity Loss",
+      "description": "Runs get skipped; the training app becomes a guilt feed.",
+      "examples": ["I deleted another unfinished run.", "I'm not a runner this month — again."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Flat Foam Failure",
+      "description": "Drugstore pads feel okay for days then pancake and return the stab.",
+      "examples": ["The gel went flat in a week.", "I keep buying the same soft lie."],
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "cluster": "Advice Whiplash",
+      "description": "Stretch more / rest more / just walk it off — conflicting tips with no structure under the foot.",
+      "examples": ["Everyone has a stretch. Nobody fixes the landing.", "Rest didn't make mornings kinder."],
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "Drugstore gel heel pads",
+      "why_it_failed": "Compress flat quickly; no lasting arch structure",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Generic foam inserts",
+      "why_it_failed": "Soft comfort without load redistribution; pain returns",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Calf stretches and frozen-bottle rolls only",
+      "why_it_failed": "Helps temporarily; does not change how the foot loads all day",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "attempt": "Cheap mail-order orthotics",
+      "why_it_failed": "Collapse or wrong contour; trust burned",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "emotional_effects": [
+    "Morning dread before feet hit floor",
+    "Shame limping in public or at the office",
+    "Guilt snapping when kids ask to play",
+    "Fear that this is the start of permanent limitation",
+    "Resentment when partner takes more walking chores"
+  ],
+  "exact_vocabulary": [
+    "first step knife",
+    "hobble to the kitchen",
+    "gel went flat",
+    "bench parent",
+    "deleted the run",
+    "just stretch it",
+    "arch collapsed",
+    "morning stab",
+    "can't chase them",
+    "soft lie"
+  ],
+  "future_fears": [
+    "Never trusting morning steps again",
+    "Giving up running for good",
+    "Becoming the parent who always sits out",
+    "Surgery talk entering the conversation"
+  ],
+  "product_fit": {
+    "mechanism": "Contoured orthotic inserts with structured arch support and heel cushioning that redistribute plantar pressure under daily load instead of relying on soft foam that flattens.",
+    "how_it_resolves": "Gives the foot a stable landing geometry so first steps and all-day standing load the tissue less harshly — a door back to mornings and movement without another pancake pad cycle.",
+    "label": "PLAUSIBLE_INFERENCE"
+  },
+  "competitors": [
+    {
+      "name": "drugstore gel pads",
+      "loved": "Cheap, immediate soft feel",
+      "hated": "Flatten fast; no arch structure",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "name": "generic foam inserts",
+      "loved": "Cushion sensation",
+      "hated": "Compress; pain returns",
+      "label": "PLAUSIBLE_INFERENCE"
+    },
+    {
+      "name": "cheap Amazon orthotics",
+      "loved": "Promise of support",
+      "hated": "Collapse / wrong shape / trust burn",
+      "label": "PLAUSIBLE_INFERENCE"
+    }
+  ],
+  "psychosocial_currencies_candidates": [
+    { "currency_id": "FUTURE_SECURITY", "why_it_applies": "Fear this heel pain becomes permanent limitation", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "IDENTITY_SELFHOOD", "why_it_applies": "Runner/parent-play identity eroding", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "AGENCY_CONTROL", "why_it_applies": "Bought every soft pad; still hobbling", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "GUILT_REGRET", "why_it_applies": "Snapping / sitting out when kids ask", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "SOCIAL_STATUS", "why_it_applies": "Public limp / gym and office competence shame", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "TRUST_SAFETY", "why_it_applies": "Trusted soft pads betrayed by flattening", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "RELATIONAL_EQUITY", "why_it_applies": "Partner absorbs more walks and errands", "label": "PLAUSIBLE_INFERENCE" },
+    { "currency_id": "AUTHORITY", "why_it_applies": "Stretch-vs-rest advice chaos; lost knowing what to do", "label": "PLAUSIBLE_INFERENCE" }
+  ],
+  "beliefs": {
+    "held": [
+      "Soft cushion equals healing",
+      "If I stretch enough the stab will leave",
+      "I'm just getting older and should accept hobbling"
+    ],
+    "ready_to_shift": [
+      "Structure under the arch matters more than temporary softness",
+      "Morning pain is a load problem I can change, not a personality"
+    ],
+    "label": "PLAUSIBLE_INFERENCE"
+  },
+  "gaps": [
+    {
+      "field": "clinical_diagnosis_confirmation",
+      "status": "UNKNOWN",
+      "impact": "Using plantar-fasciitis-style language as user-reported pattern only; no medical claim beyond mechanism description"
+    }
+  ]
+}

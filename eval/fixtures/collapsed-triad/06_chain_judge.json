@@ -1,0 +1,17 @@
+{
+  "run_id": "eval-collapsed-triad",
+  "methodology": "angle-ideation-agent@1.7.0",
+  "critic": "angle-gate-critic@1.6.3",
+  "result": "PASS",
+  "chains": [
+    {
+      "angle_ordinal": 1,
+      "Q2_villain": "PASS",
+      "Q3_dream": "PASS",
+      "Q7_core": "PASS",
+      "Q8_headline": "PASS",
+      "result": "PASS",
+      "evidence": "looks fine"
+    }
+  ]
+}
